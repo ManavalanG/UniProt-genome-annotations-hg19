@@ -1,0 +1,278 @@
+track UniProtKBTracks
+compositeTrack on
+html UniProtKBTracks
+shortLabel UniProtKB tracks
+longLabel UniProtKB Positional Features and Proteome BigBed tracks
+visibility dense
+type bigBed 12 +
+allButtonPair on
+
+   track variants
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_variants.bb
+   shortLabel UniProtKB variants
+   longLabel UniProtKB reviewed protein altering variants.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,name,geneSymbol
+
+   track active_site
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_act_site.bb
+   shortLabel UniProtKB act-site
+   longLabel UniProtKB active site sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track binding_site
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_binding.bb
+   shortLabel UniProtKB binding
+   longLabel UniProtKB binding site sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track Ca_binding_site
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_ca_bind.bb
+   shortLabel UniProtKB Ca-binding
+   longLabel UniProtKB Calcium binding site sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track carbohydrate_binding_site
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_carbohyd.bb
+   shortLabel UniProtKB carbohyd
+   longLabel UniProtKB glycosylation sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track chain
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_chain.bb
+   shortLabel UniProtKB chain
+   longLabel UniProtKB chain sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track coiled
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_coiled.bb
+   shortLabel UniProtKB coiled
+   longLabel UniProtKB coiled coil sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track crosslink
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_crosslnk.bb
+   shortLabel UniProtKB crosslnk
+   longLabel UniProtKB cross-link between proteins sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track disulfide_bonds
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_disulfid.bb
+   shortLabel UniProtKB disulfide
+   longLabel UniProtKB disulfide sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track DNA_binding
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_dna_bind.bb
+   shortLabel UniProtKB DNA-bind
+   longLabel UniProtKB DNA binding site sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track domains
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_domain.bb
+   shortLabel UniProtKB domain
+   longLabel UniProtKB domain sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track intramem
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_intramem.bb
+   shortLabel UniProtKB intramem
+   longLabel UniProtKB intramembrane sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track lipid
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_lipid.bb
+   shortLabel UniProtKB lipid
+   longLabel UniProtKB covalently attached lipid groups sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track metal
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_metal.bb
+   shortLabel UniProtKB metal
+   longLabel UniProtKB metal ion binding site sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track modified_residues
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_mod_res.bb
+   shortLabel UniProtKB mod-res
+   longLabel UniProtKB modified residues sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track motifs
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_motif.bb
+   shortLabel UniProtKB motif
+   longLabel UniProtKB motif of interest sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track NP_binding
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_np_bind.bb
+   shortLabel UniProtKB NP bind
+   longLabel UniProtKB Nucleotide Phosphate binding sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track peptides
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_peptide.bb
+   shortLabel UniProtKB peptide
+   longLabel UniProtKB active peptide sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track region
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_region.bb
+   shortLabel UniProtKB region
+   longLabel UniProtKB region of interest sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track repeat
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_repeat.bb
+   shortLabel UniProtKB repeat
+   longLabel UniProtKB repeated motifs or domains sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track signal
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_signal.bb
+   shortLabel UniProtKB signal
+   longLabel UniProtKB signal sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track site
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_site.bb
+   shortLabel UniProtKB site
+   longLabel UniProtKB single amino acid site sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track topo_domain
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_topo_dom.bb
+   shortLabel UniProtKB topo-dom
+   longLabel UniProtKB topological domain sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track transit
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transit.bb
+   shortLabel UniProtKB transit
+   longLabel UniProtKB transit sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track transmembrane
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transmem.bb
+   shortLabel UniProtKB transmem
+   longLabel UniProtKB transmembrane sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track Zn_finger
+   parent UniProtKBTracks off
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_zn_fing.bb
+   shortLabel UniProtKB Zn-fing
+   longLabel UniProtKB Zinc finger sequence annotations.
+   visibility dense
+   type bigBed 12 +
+   itemRgb on
+   searchIndex ID,geneSymbol
+
+   track UP000005640_homo_sapiens_9606_proteome
+   parent UniProtKBTracks on
+   bigDataUrl ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_proteome.bb
+   shortLabel UniProt sequences
+   longLabel UniProtKB reviewed proteome sequences.
+   visibility dense
+   type bigBed 12
+   itemRgb on
+   searchIndex ID,name,geneSymbol

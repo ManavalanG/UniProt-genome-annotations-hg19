@@ -1,0 +1,333 @@
+<metalink xmlns="http://www.metalinker.org/" version="3.0">
+  <publisher>
+    <name>UniProt Consortium</name>
+    <url>http://www.uniprot.org/</url>
+  </publisher>
+  <license>
+    <name>Creative Commons Attribution-NoDerivs 3.0</name>
+    <url>http://creativecommons.org/licenses/by-nd/3.0/</url>
+  </license>
+  <description>UniProt</description>
+  <version>2017_02</version>
+  <files>
+    <file name="UP000005640_9606_variants.bb">
+      <size>8223862</size>
+      <verification>
+        <hash type="md5">894137f4fecb96780d4864c2a5926c3f</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_variants.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_variants.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_variants.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_repeat.bb">
+      <size>1053109</size>
+      <verification>
+        <hash type="md5">7d30240d58a5e6ad602bb0cf3cf40c76</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_repeat.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_repeat.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_repeat.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_transmem.bb">
+      <size>2250053</size>
+      <verification>
+        <hash type="md5">c29172950867bae3edba3ac69334c5fd</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transmem.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transmem.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transmem.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_zn_fing.bb">
+      <size>607174</size>
+      <verification>
+        <hash type="md5">05d8a1fa446b822d9e25a151490993ad</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_zn_fing.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_zn_fing.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_zn_fing.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_chain.bb">
+      <size>2358476</size>
+      <verification>
+        <hash type="md5">c0d37b73ba32cde5accaa4d9994bdb36</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_chain.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_chain.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_chain.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_ca_bind.bb">
+      <size>112220</size>
+      <verification>
+        <hash type="md5">4d539d5bd5007458d4295a1408ff1210</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_ca_bind.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_ca_bind.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_ca_bind.bb</url>
+      </resources>
+    </file>
+  <file name="trackDb.txt">
+      <size>10855</size>
+      <verification>
+        <hash type="md5">8f5cb20aa545457af7302cdb811a2911</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/trackDb.txt</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/trackDb.txt</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/trackDb.txt</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_proteome.bb">
+      <size>5857916</size>
+      <verification>
+        <hash type="md5">18f6ee24a0ff789dc8ae3f1f6b745d60</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_proteome.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_proteome.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_proteome.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_peptide.bb">
+      <size>118319</size>
+      <verification>
+        <hash type="md5">0fb66f21c1a2a34afc20d61ecd5454f3</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_peptide.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_peptide.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_peptide.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_intramem.bb">
+      <size>94034</size>
+      <verification>
+        <hash type="md5">658ef552efa3e69c264db448ffcdde56</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_intramem.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_intramem.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_intramem.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_lipid.bb">
+      <size>182838</size>
+      <verification>
+        <hash type="md5">ed5fcf54bdc35dd15dec8743d577e833</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_lipid.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_lipid.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_lipid.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_mod_res.bb">
+      <size>3307216</size>
+      <verification>
+        <hash type="md5">d5b21ca76eedba261ffa1b343bc80047</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_mod_res.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_mod_res.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_mod_res.bb</url>
+      </resources>
+    </file>
+  <file name="UniProtKBTracks.html">
+      <size>5464</size>
+      <verification>
+        <hash type="md5">40de6a54d903a4bc3611483815c3505a</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UniProtKBTracks.html</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UniProtKBTracks.html</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UniProtKBTracks.html</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_dna_bind.bb">
+      <size>154811</size>
+      <verification>
+        <hash type="md5">4c698cfe3bc6d025b43c29a5e536a1f6</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_dna_bind.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_dna_bind.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_dna_bind.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_topo_dom.bb">
+      <size>1092382</size>
+      <verification>
+        <hash type="md5">1abd6ab3889753c4b5919aa4e7565c6b</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_topo_dom.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_topo_dom.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_topo_dom.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_site.bb">
+      <size>244741</size>
+      <verification>
+        <hash type="md5">5b61c7375115b8bfca7e2f5dc856507f</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_site.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_site.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_site.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_metal.bb">
+      <size>310465</size>
+      <verification>
+        <hash type="md5">6bcdada5591d7f5c0113ed6d9a26d214</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_metal.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_metal.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_metal.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_region.bb">
+      <size>790629</size>
+      <verification>
+        <hash type="md5">7c4f79ba9ee4fd5050d1d263d4f67385</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_region.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_region.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_region.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_domain.bb">
+      <size>4079757</size>
+      <verification>
+        <hash type="md5">dd1f901341101eec7d623a12e0d7389e</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_domain.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_domain.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_domain.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_disulfid.bb">
+      <size>1258316</size>
+      <verification>
+        <hash type="md5">e3cf808a88df3def834852ee355c1d7f</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_disulfid.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_disulfid.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_disulfid.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_act_site.bb">
+      <size>374404</size>
+      <verification>
+        <hash type="md5">45ae343ecfacfed916c9d613725cbb3f</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_act_site.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_act_site.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_act_site.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_crosslnk.bb">
+      <size>281995</size>
+      <verification>
+        <hash type="md5">41ce8cd641001ba378a7a893af0e7371</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_crosslnk.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_crosslnk.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_crosslnk.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_coiled.bb">
+      <size>774300</size>
+      <verification>
+        <hash type="md5">a48aade2aa441da0b680d71679475fb1</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_coiled.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_coiled.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_coiled.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_motif.bb">
+      <size>327290</size>
+      <verification>
+        <hash type="md5">cd605db38933f26bc82fd140ab24feba</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_motif.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_motif.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_motif.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_signal.bb">
+      <size>685965</size>
+      <verification>
+        <hash type="md5">2be73247dfeafab9afd1998309711ede</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_signal.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_signal.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_signal.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_np_bind.bb">
+      <size>327811</size>
+      <verification>
+        <hash type="md5">ff3849fe0a0b7db0412cd50acde6e02a</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_np_bind.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_np_bind.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_np_bind.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_transit.bb">
+      <size>117587</size>
+      <verification>
+        <hash type="md5">5ca57269365abe80566d602f9599524b</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transit.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transit.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_transit.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_carbohyd.bb">
+      <size>1030388</size>
+      <verification>
+        <hash type="md5">52e8cc2c57f25c393af8b3719a102604</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_carbohyd.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_carbohyd.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_carbohyd.bb</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_binding.bb">
+      <size>493931</size>
+      <verification>
+        <hash type="md5">f74233dc95e69b2375459b9c23b29812</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_binding.bb</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_binding.bb</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_hub/hg38/UP000005640_9606_binding.bb</url>
+      </resources>
+    </file>
+  </files>
+</metalink>

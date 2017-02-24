@@ -1,0 +1,468 @@
+#Partially deleted in new
+chr1	12795684	12795687	O95521	0	+	12795684	12795687	0,102,102	1	3	0	VAR_060092	G	->	A	(in	dbSNP:rs1063795).	Gly372Ala.
+#Deleted in new
+chr1	12795693	12795696	O95521	0	+	12795693	12795696	0,102,102	1	3	0	VAR_034399	R	->	C	(in	dbSNP:rs17039307).	Arg375Cys.
+#Partially deleted in new
+chr1	121177280	121177283	Q86X60	0	-	121177280	121177283	0,102,102	1	3	0	VAR_044012	P	->	L	(in	dbSNP:rs1572701).	Pro94Leu.
+#Partially deleted in new
+chr11	118658366	118658369	O43280	0	-	118658366	118658369	0,102,102	1	3	0	VAR_049208	A	->	P	(in	dbSNP:rs6589671).	Ala558Pro.
+#Deleted in new
+chr15	21439807	21439810	Q6S5H4	0	-	21439807	21439810	0,102,102	1	3	0	VAR_019917	C	->	R	(in	dbSNP:rs6599743).	Cys68Arg.
+#Deleted in new
+chr15	21439819	21439822	Q6S5H4	0	-	21439819	21439822	0,102,102	1	3	0	VAR_019916	C	->	W	(in	dbSNP:rs2458860).	Cys64Trp.
+#Deleted in new
+chr15	21439882	21439885	Q6S5H4	0	-	21439882	21439885	0,102,102	1	3	0	VAR_019915	M	->	V	(in	dbSNP:rs2605913).	Met43Val.	Pubmed:15276201
+#Deleted in new
+chr16	8589733	8589736	B3SHH9	0	-	8589733	8589736	0,102,102	1	3	0	VAR_058707	I	->	T	().	Ile35Thr.	Pubmed:17492639
+#Deleted in new
+chr19	54242409	54242412	Q6PI73	0	-	54242409	54242412	0,102,102	1	3	0	VAR_033171	G	->	R	(in	dbSNP:rs1052966).	Gly149Arg.
+#Deleted in new
+chr19	54300020	54300023	Q8N6C8	0	-	54300020	54300023	0,102,102	1	3	0	VAR_016991	L	->	R	(in	dbSNP:rs6509862).	Leu107Arg.	Pubmed:12750859
+#Partially deleted in new
+chr22	42141259	42141274	A0A087X1C5	0	-	42141259	42141274	0,102,102	1	15	0	VAR_072635	AHMPC	->	VHMPY	().	AlaHisMetP369ValHisMetP.	Pubmed:15051713
+#Deleted in new
+chr3	51433258	51433261	Q9Y4B6	0	-	51433258	51433261	0,102,102	1	3	0	VAR_051487	L	->	F	(does	not	affect	serine/threonine-protein	kinase	kinase	activity;	dbSNP:rs17712228).	Leu378Phe.	Pubmed:24140421
+#Deleted in new
+chr6	57537463	57537466	P49643	0	+	57537463	57537466	0,102,102	1	3	0	VAR_059745	C	->	Y	(in	dbSNP:rs9476080).	Cys287Tyr.
+#Deleted in new
+chr6	57645930	57645933	P49643	0	+	57645930	57645933	0,102,102	1	3	0	VAR_059746	D	->	G	(in	dbSNP:rs4307164).	Asp435Gly.
+#Deleted in new
+chr6	57645963	57645966	P49643	0	+	57645963	57645966	0,102,102	1	3	0	VAR_059747	Q	->	H	(in	dbSNP:rs4294007).	Gln446His.
+#Deleted in new
+chr7	100964818	100964821	Q02505	0	+	100964818	100964821	0,102,102	1	3	0	VAR_030722	V	->	A	(in	dbSNP:rs6960868).	Val3120Ala.	Pubmed:11289722
+#Deleted in new
+chr7	100966915	100966918	Q02505	0	+	100966915	100966918	0,102,102	1	3	0	VAR_030723	Y	->	N	(in	dbSNP:rs10258821).	Tyr3299Asn.	Pubmed:10512748,	Pubmed:11289722
+#Deleted in new
+chr7	100966915	100966918	Q02505	0	+	100966915	100966918	0,102,102	1	3	0	VAR_030724	Y	->	H	(polymorphism;	may	be	associated	with	Crohn	disease;	dbSNP:rs10258821).	Tyr3299His.	Pubmed:11289722
+#Deleted in new
+chr7	130548501	130548504	Q9UBF2	0	-	130548501	130548504	0,102,102	1	3	0	VAR_060182	P	->	L	(in	dbSNP:rs17333054).	Pro626Leu.
+#Deleted in new
+chr7	130551247	130551250	Q9UBF2	0	-	130551247	130551250	0,102,102	1	3	0	VAR_060181	I	->	L	(in	dbSNP:rs10128).	Ile547Leu.
+#Deleted in new
+chr7	142773413	142773416	P07478	0	+	142773413	142773416	0,102,102	1	3	0	VAR_051858	A	->	V	(in	dbSNP:rs11547028).	Ala117Val.
+#Deleted in new
+chr7	142773920	142773923	P07478	0	+	142773920	142773923	0,102,102	1	3	0	VAR_071761	D	->	H	(abolishes	tyrosine	sulfation;	dbSNP:rs1804564).	Asp153His.	Pubmed:18986305
+#Deleted in new
+chr7	142791276	142791279	P07477	0	+	142791276	142791279	0,102,102	1	3	0	VAR_011693	A	->	V	(in	PCTT;	disrupts	signal	sequence	cleavage	site;	dbSNP:rs202003805).	Ala16Val.	Pubmed:10381903
+#Deleted in new
+chr7	142791294	142791297	P07477	0	+	142791294	142791297	0,102,102	1	3	0	VAR_011652	D	->	G	(in	PCTT;	increased	rate	of	activation;	dbSNP:rs397507442).	Asp22Gly.	Pubmed:10930381
+#Deleted in new
+chr7	142791297	142791300	P07477	0	+	142791297	142791300	0,102,102	1	3	0	VAR_011653	K	->	R	(in	PCTT;	increased	rate	of	activation;	dbSNP:rs111033567).	Lys23Arg.	Pubmed:10204851
+#Deleted in new
+chr7	142791315	142791318	P07477	0	+	142791315	142791318	0,102,102	1	3	0	VAR_006720	N	->	I	(in	PCTT;	dbSNP:rs111033566).	Asn29Ile.	Pubmed:15776435,	Pubmed:11866271,	Pubmed:9322498
+#Deleted in new
+chr7	142791315	142791318	P07477	0	+	142791315	142791318	0,102,102	1	3	0	VAR_012712	N	->	T	(in	PCTT;	dbSNP:rs111033566).	Asn29Thr.	Pubmed:11788572
+#Deleted in new
+chr7	142791390	142791393	P07477	0	+	142791390	142791393	0,102,102	1	3	0	VAR_037908	N	->	S	(in	PCTT;	associated	with	Ile-29;	the	double	mutant	shows	increased	autocatalytic	activation	which	is	solely	due	to	the	Ile-29	mutation;	dbSNP:rs144422014).	Asn54Ser.	Pubmed:15776435
+#Deleted in new
+chr7	142792524	142792527	P07477	0	+	142792524	142792527	0,102,102	1	3	0	VAR_037909	E	->	K	(in	PCTT;	Lys-79	trypsin	activates	anionic	trypsinogen	PRSS2	2-fold	while	the	common	pancreatitis-associated	mutants	His-122	or	Ile-29	have	no	such	effect.	Glu79Lys.	Pubmed:14695529
+#Deleted in new
+chr7	142792599	142792602	P07477	0	+	142792599	142792602	0,102,102	1	3	0	VAR_011654	L	->	P	(in	PCTT).	Leu104Pro.	Pubmed:11866271
+#Deleted in new
+chr7	142792635	142792638	P07477	0	+	142792635	142792638	0,102,102	1	3	0	VAR_011655	R	->	C	(in	PCTT;	dbSNP:rs387906698).	Arg116Cys.	Pubmed:11866271
+#Deleted in new
+chr7	142792653	142792656	P07477	0	+	142792653	142792656	0,102,102	1	3	0	VAR_006721	R	->	H	(in	PCTT;	suppresses	an	autocleavage	site	which	is	probably	part	of	a	fail-safe	mechanism	by	which	trypsin,	which	is	activated	within	the	pancreas,	may	be	inactivated.	Arg122His.	Pubmed:11866271,	Pubmed:10381903
+#Deleted in new
+chr7	142792653	142792656	P07477	0	+	142792653	142792656	0,102,102	1	3	0	VAR_012713	R	->	C	(in	PCTT;	suppresses	an	autocleavage	site;	dbSNP:rs111033568).	Arg122Cys.	Pubmed:11788572
+#Deleted in new
+chr7	142792698	142792701	P07477	0	+	142792698	142792701	0,102,102	1	3	0	VAR_036299	T	->	M	(in	a	colorectal	cancer	sample;	somatic	mutation;	dbSNP:rs117497341).	Thr137Met.	Pubmed:16959974
+#Deleted in new
+chr7	142792704	142792707	P07477	0	+	142792704	142792707	0,102,102	1	3	0	VAR_011656	C	->	F	(in	PCTT).	Cys139Phe.	Pubmed:11866271
+#Deleted in new
+chrX	77447875	77447878	O43320	0	+	77447875	77447878	0,102,102	1	3	0	VAR_072396	R	->	L	(in	MF4).	Arg68Leu.	Pubmed:25333065
+#Deleted in new
+MT	3315	3318	P03886	0	+	3315	3318	0,102,102	1	3	0	VAR_004747	A	->	T	(might	contribute	to	non-insulin	dependent	diabetes	mellitus	susceptibility	in	some	populations;	dbSNP:rs2853516).	Ala4Thr.	Pubmed:7733935
+#Deleted in new
+MT	3393	3396	P03886	0	+	3393	3396	0,102,102	1	3	0	VAR_004748	Y	->	H	(in	LHON;	secondary	mutation;	unknown	pathological	significance;	dbSNP:rs41460449).	Tyr30His.	Pubmed:1417830
+#Deleted in new
+MT	3393	3396	P03886	0	+	3393	3396	0,102,102	1	3	0	VAR_065195	Y	->	C	(in	a	patient	with	hypertrophic	cardiomyopathy	and	profound	hearing	loss).	Tyr30Cys.	Pubmed:21144833
+#Deleted in new
+MT	3396	3399	P03886	0	+	3396	3399	0,102,102	1	3	0	VAR_004749	M	->	T	(in	MELAS;	dbSNP:rs201212638).	Met31Thr.	Pubmed:8723687
+#Deleted in new
+MT	3396	3399	P03886	0	+	3396	3399	0,102,102	1	3	0	VAR_004750	M	->	V	(in	AD-MT;	may	be	associated	with	disease	susceptibility;	dbSNP:rs199476120).	Met31Val.	Pubmed:8104867
+#Deleted in new
+MT	3459	3462	P03886	0	+	3459	3462	0,102,102	1	3	0	VAR_004751	A	->	T	(in	LHON;	primary	mutation;	medium	severity;	some	vision	recovery.	Ala52Thr.	Pubmed:1959619,	Pubmed:1928099,	Pubmed:1674640
+#Deleted in new
+MT	3564	3567	P03886	0	+	3564	3567	0,102,102	1	3	0	VAR_011346	T	->	A	(in	dbSNP:rs2854133).	Thr87Ala.	Pubmed:7530363
+#Deleted in new
+MT	3807	3810	P03886	0	+	3807	3810	0,102,102	1	3	0	VAR_011347	T	->	A	(in	dbSNP:rs2854135).	Thr168Ala.	Pubmed:7530363
+#Deleted in new
+MT	3918	3921	P03886	0	+	3918	3921	0,102,102	1	3	0	VAR_008587	S	->	P	().	Ser205Pro.	Pubmed:1757091
+#Deleted in new
+MT	3945	3948	P03886	0	+	3945	3948	0,102,102	1	3	0	VAR_073352	E	->	K	(in	MT-C1D;	disease	phenotype	consistent	with	epileptic	encephalopathy	evolving	to	Lennox-Gastaut	syndrome;	dbSNP:rs199476123).	Glu214Lys.	Pubmed:24105702
+#Deleted in new
+MT	4068	4071	P03886	0	+	4068	4071	0,102,102	1	3	0	VAR_008588	Y	->	C	().	Tyr255Cys.	Pubmed:1757091
+#Deleted in new
+MT	4134	4137	P03886	0	+	4134	4137	0,102,102	1	3	0	VAR_004752	Y	->	C	(in	dbSNP:rs199476121).	Tyr277Cys.	Pubmed:2018041
+#Deleted in new
+MT	4158	4161	P03886	0	+	4158	4161	0,102,102	1	3	0	VAR_004753	L	->	P	(in	LHON;	secondary	mutation;	unknown	pathological	significance;	dbSNP:rs199476119).	Leu285Pro.	Pubmed:2018041
+#Deleted in new
+MT	4167	4170	P03886	0	+	4167	4170	0,102,102	1	3	0	VAR_008589	L	->	P	().	Leu288Pro.	Pubmed:1757091
+#Deleted in new
+MT	4215	4218	P03886	0	+	4215	4218	0,102,102	1	3	0	VAR_004754	Y	->	H	(in	LHON;	secondary	mutation;	unknown	pathological	significance;	dbSNP:rs1599988).	Tyr304His.	Pubmed:1900003
+#Deleted in new
+MT	4592	4595	P03891	0	+	4592	4595	0,102,102	1	3	0	VAR_008590	P	->	L	().	Pro42Leu.	Pubmed:1757091
+#Deleted in new
+MT	4595	4598	P03891	0	+	4595	4598	0,102,102	1	3	0	VAR_011348	V	->	I	(in	dbSNP:rs1117207).	Val43Ile.	Pubmed:7530363
+#Deleted in new
+MT	4637	4640	P03891	0	+	4637	4640	0,102,102	1	3	0	VAR_008591	I	->	T	(in	dbSNP:rs41510547).	Ile57Thr.	Pubmed:9461455
+#Deleted in new
+MT	4655	4658	P03891	0	+	4655	4658	0,102,102	1	3	0	VAR_008592	Q	->	R	().	Gln63Arg.	Pubmed:1757091
+#Deleted in new
+MT	4673	4676	P03891	0	+	4673	4676	0,102,102	1	3	0	VAR_011349	I	->	V	().	Ile69Val.	Pubmed:9475751
+#Deleted in new
+MT	4730	4733	P03891	0	+	4730	4733	0,102,102	1	3	0	VAR_011350	N	->	S	(in	dbSNP:rs201854167).	Asn88Ser.	Pubmed:9475751
+#Deleted in new
+MT	4823	4826	P03891	0	+	4823	4826	0,102,102	1	3	0	VAR_008593	T	->	A	().	Thr119Ala.	Pubmed:1757091
+#Deleted in new
+MT	4910	4913	P03891	0	+	4910	4913	0,102,102	1	3	0	VAR_008594	S	->	P	().	Ser148Pro.	Pubmed:1757091
+#Deleted in new
+MT	4916	4919	P03891	0	+	4916	4919	0,102,102	1	3	0	VAR_004755	N	->	D	(in	LHON;	secondary	mutation;	does	not	seem	to	directly	cause	the	disease;	dbSNP:rs28357980).	Asn150Asp.	Pubmed:9475751,	Pubmed:1900003
+#Deleted in new
+MT	4916	4919	P03891	0	+	4916	4919	0,102,102	1	3	0	VAR_008595	N	->	S	().	Asn150Ser.	Pubmed:1757091
+#Deleted in new
+MT	4943	4946	P03891	0	+	4943	4946	0,102,102	1	3	0	VAR_008596	I	->	T	().	Ile159Thr.	Pubmed:1757091
+#Deleted in new
+MT	5021	5024	P03891	0	+	5021	5024	0,102,102	1	3	0	VAR_008597	T	->	A	().	Thr185Ala.	Pubmed:1757091
+#Deleted in new
+MT	5177	5180	P03891	0	+	5177	5180	0,102,102	1	3	0	VAR_011351	L	->	M	(in	dbSNP:rs28357984).	Leu237Met.	Pubmed:9475751
+#Deleted in new
+MT	5243	5246	P03891	0	+	5243	5246	0,102,102	1	3	0	VAR_004756	G	->	S	(in	LHON;	rare	primary	mutation;	dbSNP:rs199476115).	Gly259Ser.	Pubmed:1732158
+#Deleted in new
+MT	5261	5264	P03891	0	+	5261	5264	0,102,102	1	3	0	VAR_011352	A	->	T	(in	dbSNP:rs370378529).	Ala265Thr.	Pubmed:9475751
+#Deleted in new
+MT	5261	5264	P03891	0	+	5261	5264	0,102,102	1	3	0	VAR_011353	A	->	V	(in	dbSNP:rs41320049).	Ala265Val.	Pubmed:9475751
+#Deleted in new
+MT	5300	5303	P03891	0	+	5300	5303	0,102,102	1	3	0	VAR_011354	I	->	T	().	Ile278Thr.	Pubmed:9475751
+#Deleted in new
+MT	5441	5444	P03891	0	+	5441	5444	0,102,102	1	3	0	VAR_011355	F	->	L	(in	dbSNP:rs3020601).	Phe325Leu.	Pubmed:7530363
+#Deleted in new
+MT	5459	5462	P03891	0	+	5459	5462	0,102,102	1	3	0	VAR_004757	A	->	T	(in	dbSNP:rs3021088).	Ala331Thr.	Pubmed:7530363
+#Deleted in new
+MT	5459	5462	P03891	0	+	5459	5462	0,102,102	1	3	0	VAR_004758	A	->	S	(in	AD-MT).	Ala331Ser.	Pubmed:1370613
+#Deleted in new
+MT	5465	5468	P03891	0	+	5465	5468	0,102,102	1	3	0	VAR_011356	T	->	A	().	Thr333Ala.	Pubmed:9475751
+#Deleted in new
+MT	5930	5933	P00395	0	+	5930	5933	0,102,102	1	3	0	VAR_008566	T	->	A	().	Thr10Ala.	Pubmed:1757091
+#Deleted in new
+MT	6182	6185	P00395	0	+	6182	6185	0,102,102	1	3	0	VAR_008567	F	->	C	().	Phe94Cys.	Pubmed:1757091
+#Deleted in new
+MT	6275	6278	P00395	0	+	6275	6278	0,102,102	1	3	0	VAR_064154	G	->	D	(in	CRC;	displays	steady-state	catalytic	activity	linked	to	proton	pumping	that	is	approximately	34%	of	wild-type.	Gly125Asp.	Pubmed:16407113,	Pubmed:19218458
+#Deleted in new
+MT	6326	6329	P00395	0	+	6326	6329	0,102,102	1	3	0	VAR_033055	S	->	F	(in	MT-C4D;	significant	decrease	in	enzyme	activity;	dbSNP:rs267606883).	Ser142Phe.	Pubmed:16284789
+#Deleted in new
+MT	6365	6368	P00395	0	+	6365	6368	0,102,102	1	3	0	VAR_008568	V	->	L	().	Val155Leu.	Pubmed:1757091
+#Deleted in new
+MT	6488	6491	P00395	0	+	6488	6491	0,102,102	1	3	0	VAR_033056	L	->	I	(in	MT-C4D;	dbSNP:rs28461189).	Leu196Ile.	Pubmed:12140182
+#Deleted in new
+MT	6572	6575	P00395	0	+	6572	6575	0,102,102	1	3	0	VAR_008569	G	->	A	().	Gly224Ala.	Pubmed:1757091
+#Deleted in new
+MT	6605	6608	P00395	0	+	6605	6608	0,102,102	1	3	0	VAR_011342	F	->	S	(in	dbSNP:rs2853818).	Phe235Ser.	Pubmed:7530363
+#Deleted in new
+MT	6719	6722	P00395	0	+	6719	6722	0,102,102	1	3	0	VAR_008385	M	->	T	(found	in	two	patients	with	acquired	idiopathic	sideroblastic	anemia;	dbSNP:rs199476127).	Met273Thr.	Pubmed:9851701,	Pubmed:9389715
+#Deleted in new
+MT	6740	6743	P00395	0	+	6740	6743	0,102,102	1	3	0	VAR_008386	I	->	T	(found	in	two	patients	with	acquired	idiopathic	sideroblastic	anemia;	dbSNP:rs199476126).	Ile280Thr.	Pubmed:9851701,	Pubmed:9389715
+#Deleted in new
+MT	6815	6818	P00395	0	+	6815	6818	0,102,102	1	3	0	VAR_008570	F	->	L	(in	dbSNP:rs368552121).	Phe305Leu.	Pubmed:1757091
+#Deleted in new
+MT	7145	7148	P00395	0	+	7145	7148	0,102,102	1	3	0	VAR_011343	T	->	A	(in	dbSNP:rs372136420).	Thr415Ala.	Pubmed:7530363
+#Deleted in new
+MT	7274	7277	P00395	0	+	7274	7277	0,102,102	1	3	0	VAR_064155	S	->	P	(in	CRC;	the	mutant	is	probably	not	expressed,	indicating	that	the	amino	acid	substitution	results	in	a	severely	altered	overall	structure	of	the	enzyme;	dbSNP:rs267606884).	Ser458Pro.	Pubmed:16407113,	Pubmed:19218458
+#Deleted in new
+MT	7439	7442	P00395	0	+	7439	7442	0,102,102	1	3	0	VAR_008387	S	->	SKQK	(in	LHON;	secondary	mutation;	does	not	seem	to	directly	cause	the	disease).	Ser513SerLysGlnLys.	Pubmed:1322638
+#Deleted in new
+MT	7615	7618	P00403	0	+	7615	7618	0,102,102	1	3	0	VAR_008863	D	->	A	().	Asp11Ala.	Pubmed:1757091
+#Deleted in new
+MT	7669	7672	P00403	0	+	7669	7672	0,102,102	1	3	0	VAR_035085	M	->	K	(in	MT-C4D;	affect	the	stability	of	the	COX	complex;	dbSNP:rs199474827).	Met29Lys.	Pubmed:10486321
+#Deleted in new
+MT	7672	7675	P00403	0	+	7672	7675	0,102,102	1	3	0	VAR_011344	I	->	V	().	Ile30Val.	Pubmed:8277847
+#Deleted in new
+MT	7951	7954	P00403	0	+	7951	7954	0,102,102	1	3	0	VAR_008571	L	->	P	().	Leu123Pro.	Pubmed:1757091
+#Deleted in new
+MT	8008	8011	P00403	0	+	8008	8011	0,102,102	1	3	0	VAR_008390	V	->	M	(in	colorectal	cancer;	dbSNP:rs199474826).	Val142Met.	Pubmed:9806551
+#Deleted in new
+MT	8026	8029	P00403	0	+	8026	8029	0,102,102	1	3	0	VAR_011345	A	->	T	(in	dbSNP:rs1116904).	Ala148Thr.	Pubmed:8277847
+#Deleted in new
+MT	8143	8146	P00403	0	+	8143	8146	0,102,102	1	3	0	VAR_008572	T	->	M	().	Thr187Met.	Pubmed:1757091
+#Deleted in new
+MT	8413	8416	P03928	0	+	8413	8416	0,102,102	1	3	0	VAR_008563	L	->	P	().	Leu17Pro.	Pubmed:1757091
+#Deleted in new
+MT	8425	8428	P03928	0	+	8425	8428	0,102,102	1	3	0	VAR_008564	F	->	S	().	Phe21Ser.	Pubmed:1757091
+#Deleted in new
+MT	8446	8449	P03928	0	+	8446	8449	0,102,102	1	3	0	VAR_008565	M	->	T	().	Met28Thr.	Pubmed:9461455
+#Deleted in new
+MT	8527	8530	P03928	0	+	8527	8530	0,102,102	1	3	0	VAR_069527	W	->	R	(in	MC5DM2;	dbSNP:rs387906422).	Trp55Arg.	Pubmed:19188198
+#Deleted in new
+MT	8544	8547	P00846	0	+	8544	8547	0,102,102	1	3	0	VAR_021178	A	->	T	().	Ala7Thr.	Pubmed:15467980
+#Deleted in new
+MT	8556	8559	P00846	0	+	8556	8559	0,102,102	1	3	0	VAR_021179	A	->	T	().	Ala11Thr.	Pubmed:12949126,	Pubmed:14760490
+#Deleted in new
+MT	8565	8568	P00846	0	+	8565	8568	0,102,102	1	3	0	VAR_021180	I	->	V	(in	dbSNP:rs3020563).	Ile14Val.	Pubmed:14563219,	Pubmed:7530363
+#Deleted in new
+MT	8571	8574	P00846	0	+	8571	8574	0,102,102	1	3	0	VAR_021181	G	->	S	(in	dbSNP:rs28502681).	Gly16Ser.	Pubmed:12870132
+#Deleted in new
+MT	8622	8625	P00846	0	+	8622	8625	0,102,102	1	3	0	VAR_008556	T	->	S	().	Thr33Ser.	Pubmed:1757091
+#Deleted in new
+MT	8634	8637	P00846	0	+	8634	8637	0,102,102	1	3	0	VAR_021182	L	->	P	().	Leu37Pro.	Pubmed:12870132
+#Deleted in new
+MT	8682	8685	P00846	0	+	8682	8685	0,102,102	1	3	0	VAR_021183	T	->	I	(in	dbSNP:rs201336180).	Thr53Ile.	Pubmed:15467980
+#Deleted in new
+MT	8700	8703	P00846	0	+	8700	8703	0,102,102	1	3	0	VAR_000792	T	->	A	(in	dbSNP:rs2000975).	Thr59Ala.	Pubmed:1757091,	Pubmed:3201231
+#Deleted in new
+MT	8703	8706	P00846	0	+	8703	8706	0,102,102	1	3	0	VAR_021184	M	->	T	().	Met60Thr.	Pubmed:12949126,	Pubmed:14760490
+#Deleted in new
+MT	8706	8709	P00846	0	+	8706	8709	0,102,102	1	3	0	VAR_008557	H	->	Y	().	His61Tyr.	Pubmed:1757091
+#Deleted in new
+MT	8763	8766	P00846	0	+	8763	8766	0,102,102	1	3	0	VAR_021185	A	->	T	().	Ala80Thr.	Pubmed:12022039
+#Deleted in new
+MT	8793	8796	P00846	0	+	8793	8796	0,102,102	1	3	0	VAR_008558	H	->	Y	(in	dbSNP:rs2298007).	His90Tyr.	Pubmed:12870132,	Pubmed:11553319
+#Deleted in new
+MT	8859	8862	P00846	0	+	8859	8862	0,102,102	1	3	0	VAR_008559	T	->	A	(in	dbSNP:rs2001031).	Thr112Ala.	Pubmed:12949126,	Pubmed:12870132
+#Deleted in new
+MT	8874	8877	P00846	0	+	8874	8877	0,102,102	1	3	0	VAR_021186	F	->	L	(in	dbSNP:rs201123510).	Phe117Leu.	Pubmed:12509511
+#Deleted in new
+MT	8886	8889	P00846	0	+	8886	8889	0,102,102	1	3	0	VAR_021187	I	->	V	(in	dbSNP:rs386829057).	Ile121Val.	Pubmed:15467980
+#Deleted in new
+MT	8922	8925	P00846	0	+	8922	8925	0,102,102	1	3	0	VAR_021188	T	->	A	(in	dbSNP:rs200329150).	Thr133Ala.	Pubmed:12949126
+#Deleted in new
+MT	8967	8970	P00846	0	+	8967	8970	0,102,102	1	3	0	VAR_073699	S	->	N	(in	MLASA3;	dbSNP:rs794726857).	Ser148Asn.	Pubmed:25037980
+#Deleted in new
+MT	8988	8991	P00846	0	+	8988	8991	0,102,102	1	3	0	VAR_008560	A	->	T	().	Ala155Thr.	Pubmed:1757091,	Pubmed:9461455
+#Deleted in new
+MT	8991	8994	P00846	0	+	8991	8994	0,102,102	1	3	0	VAR_000793	L	->	R	(in	NARP	and	LS;	dbSNP:rs199476133).	Leu156Arg.	Pubmed:9556461,	Pubmed:2137962
+#Deleted in new
+MT	8991	8994	P00846	0	+	8991	8994	0,102,102	1	3	0	VAR_000794	L	->	P	(in	LS	and	MC5DM1;	dbSNP:rs199476133).	Leu156Pro.	Pubmed:18055910,	Pubmed:8395787,	Pubmed:16049925
+#Deleted in new
+MT	9054	9057	P00846	0	+	9054	9057	0,102,102	1	3	0	VAR_008561	A	->	T	(in	dbSNP:rs9645429).	Ala177Thr.
+#Deleted in new
+MT	9057	9060	P00846	0	+	9057	9060	0,102,102	1	3	0	VAR_021189	T	->	A	().	Thr178Ala.	Pubmed:12870132
+#Deleted in new
+MT	9069	9072	P00846	0	+	9069	9072	0,102,102	1	3	0	VAR_021190	S	->	L	(in	dbSNP:rs193303046).	Ser182Leu.	Pubmed:12870132
+#Deleted in new
+MT	9099	9102	P00846	0	+	9099	9102	0,102,102	1	3	0	VAR_000795	I	->	T	(in	LHON;	possible	rate	primary	mutation;	dbSNP:rs199476134).	Ile192Thr.	Pubmed:7726182,	Pubmed:12509511
+#Deleted in new
+MT	9099	9102	P00846	0	+	9099	9102	0,102,102	1	3	0	VAR_021191	I	->	V	().	Ile192Val.	Pubmed:14760490
+#Deleted in new
+MT	9102	9105	P00846	0	+	9102	9105	0,102,102	1	3	0	VAR_021192	F	->	L	().	Phe193Leu.	Pubmed:11130070,	Pubmed:12840039
+#Deleted in new
+MT	9135	9138	P00846	0	+	9135	9138	0,102,102	1	3	0	VAR_021193	I	->	T	().	Ile204Thr.	Pubmed:12870132,	Pubmed:11553319
+#Deleted in new
+MT	9162	9165	P00846	0	+	9162	9165	0,102,102	1	3	0	VAR_000796	V	->	I	(in	dbSNP:rs2298010).	Val213Ile.	Pubmed:1757091,	Pubmed:3201231,	Pubmed:15467980
+#Deleted in new
+MT	9174	9177	P00846	0	+	9174	9177	0,102,102	1	3	0	VAR_000797	L	->	P	(in	LS	and	MIBSN;	dbSNP:rs199476135).	Leu217Pro.	Pubmed:7668837,	Pubmed:9270604,	Pubmed:9501263
+#Deleted in new
+MT	9180	9183	P00846	0	+	9180	9183	0,102,102	1	3	0	VAR_008562	S	->	G	().	Ser219Gly.	Pubmed:1757091
+#Deleted in new
+MT	9183	9186	P00846	0	+	9183	9186	0,102,102	1	3	0	VAR_073700	L	->	P	(in	LS;	dbSNP:rs199476138).	Leu220Pro.	Pubmed:17352390
+#Deleted in new
+MT	9212	9215	P00414	0	+	9212	9215	0,102,102	1	3	0	VAR_008573	H	->	R	().	His3Arg.	Pubmed:9461455
+#Deleted in new
+MT	9308	9311	P00414	0	+	9308	9311	0,102,102	1	3	0	VAR_008574	F	->	S	().	Phe35Ser.	Pubmed:9461455
+#Deleted in new
+MT	9437	9440	P00414	0	+	9437	9440	0,102,102	1	3	0	VAR_002167	G	->	S	(in	LHON;	secondary	mutation;	does	not	seem	to	directly	cause	the	disease;	dbSNP:rs267606611).	Gly78Ser.	Pubmed:8240356
+#Deleted in new
+MT	9476	9479	P00414	0	+	9476	9479	0,102,102	1	3	0	VAR_008575	V	->	I	(in	dbSNP:rs2853825).	Val91Ile.	Pubmed:1757091
+#Deleted in new
+MT	9485	9500	P00414	0	+	9485	9500	0,102,102	1	15	0	VAR_033057	Missing	(in	MT-C4D;	with	RM-MT).	Missing.	Pubmed:8630495
+#Deleted in new
+MT	9734	9737	P00414	0	+	9734	9737	0,102,102	1	3	0	VAR_008576	Q	->	R	().	Gln177Arg.	Pubmed:1757091
+#Deleted in new
+MT	9803	9806	P00414	0	+	9803	9806	0,102,102	1	3	0	VAR_002168	A	->	T	(in	LHON;	possible	rare	primary	mutation;	dbSNP:rs200613617).	Ala200Thr.	Pubmed:8240356
+#Deleted in new
+MT	9956	9959	P00414	0	+	9956	9959	0,102,102	1	3	0	VAR_002169	F	->	L	(in	MELAS).	Phe251Leu.	Pubmed:7496173,	Pubmed:18587274
+#Deleted in new
+MT	9965	9968	P00414	0	+	9965	9968	0,102,102	1	3	0	VAR_008577	V	->	I	(in	dbSNP:rs200809063).	Val254Ile.	Pubmed:1757091
+#Deleted in new
+MT	10085	10088	P03897	0	+	10085	10088	0,102,102	1	3	0	VAR_008391	N	->	D	(in	dbSNP:rs28358274).	Asn10Asp.	Pubmed:6343397
+#Deleted in new
+MT	10157	10160	P03897	0	+	10157	10160	0,102,102	1	3	0	VAR_064564	S	->	P	(in	MT-C1D;	dbSNP:rs199476117).	Ser34Pro.	Pubmed:20818383,	Pubmed:14705112
+#Deleted in new
+MT	10190	10193	P03897	0	+	10190	10193	0,102,102	1	3	0	VAR_035091	S	->	P	(in	MT-C1D;	dbSNP:rs267606890).	Ser45Pro.	Pubmed:11456298,	Pubmed:20818383
+#Deleted in new
+MT	10196	10199	P03897	0	+	10196	10199	0,102,102	1	3	0	VAR_035092	A	->	T	(in	LS	and	MT-C1D;	dbSNP:rs267606891).	Ala47Thr.	Pubmed:17152068,	Pubmed:20818383
+#Deleted in new
+MT	10214	10217	P03897	0	+	10214	10217	0,102,102	1	3	0	VAR_008598	M	->	V	().	Met53Val.	Pubmed:1757091
+#Deleted in new
+MT	10397	10400	P03897	0	+	10397	10400	0,102,102	1	3	0	VAR_008392	T	->	A	(in	dbSNP:rs2853826).	Thr114Ala.	Pubmed:1757091,	Pubmed:6343397
+#Deleted in new
+MT	10562	10565	P03901	0	+	10562	10565	0,102,102	1	3	0	VAR_008496	C	->	R	(in	colorectal	cancer;	dbSNP:rs267606892).	Cys32Arg.	Pubmed:9806551
+#Deleted in new
+MT	10574	10577	P03901	0	+	10574	10577	0,102,102	1	3	0	VAR_008605	M	->	I	().	Met36Ile.	Pubmed:1757091
+#Deleted in new
+MT	10637	10640	P03901	0	+	10637	10640	0,102,102	1	3	0	VAR_008606	N	->	S	().	Asn57Ser.	Pubmed:1757091
+#Deleted in new
+MT	10649	10652	P03901	0	+	10649	10652	0,102,102	1	3	0	VAR_008607	I	->	T	().	Ile61Thr.	Pubmed:1757091
+#Deleted in new
+MT	10661	10664	P03901	0	+	10661	10664	0,102,102	1	3	0	VAR_008397	V	->	A	(in	LHON;	possible	rare	primary	mutation;	dbSNP:rs193302933).	Val65Ala.	Pubmed:8680405
+#Deleted in new
+MT	10993	10996	P03905	0	+	10993	10996	0,102,102	1	3	0	VAR_008599	A	->	P	().	Ala79Pro.	Pubmed:1757091,	Pubmed:12022039
+#Deleted in new
+MT	11083	11086	P03905	0	+	11083	11086	0,102,102	1	3	0	VAR_004759	T	->	A	(in	MELAS;	dbSNP:rs199476113).	Thr109Ala.	Pubmed:1323207
+#Deleted in new
+MT	11083	11086	P03905	0	+	11083	11086	0,102,102	1	3	0	VAR_008600	T	->	P	().	Thr109Pro.	Pubmed:1757091
+#Deleted in new
+MT	11152	11155	P03905	0	+	11152	11155	0,102,102	1	3	0	VAR_008601	I	->	T	().	Ile132Thr.	Pubmed:1757091
+#Deleted in new
+MT	11638	11641	P03905	0	+	11638	11641	0,102,102	1	3	0	VAR_008602	M	->	T	(in	dbSNP:rs193302940).	Met294Thr.	Pubmed:1757091
+#Deleted in new
+MT	11695	11698	P03905	0	+	11695	11698	0,102,102	1	3	0	VAR_008393	V	->	I	(in	LDYT;	possible	rare	primary	mutation;	dbSNP:rs200873900).	Val313Ile.	Pubmed:8644732
+#Deleted in new
+MT	11776	11779	P03905	0	+	11776	11779	0,102,102	1	3	0	VAR_004760	R	->	H	(in	LHON;	primary	mutation;	almost	no	vision	recovery;	most	frequent	mutation.	Arg340His.	Pubmed:1959619,	Pubmed:1959931,	Pubmed:3201231
+#Deleted in new
+MT	12016	12019	P03905	0	+	12016	12019	0,102,102	1	3	0	VAR_064565	T	->	A	(detected	in	a	patient	with	mitochondrial	complex	I	deficiency;	uncertain	pathological	significance).	Thr420Ala.	Pubmed:20818383
+#Deleted in new
+MT	12384	12387	P03915	0	+	12384	12387	0,102,102	1	3	0	VAR_008864	P	->	S	().	Pro17Ser.	Pubmed:1757091
+#Deleted in new
+MT	12618	12621	P03915	0	+	12618	12621	0,102,102	1	3	0	VAR_008865	F	->	S	().	Phe95Ser.	Pubmed:1757091
+#Deleted in new
+MT	12630	12633	P03915	0	+	12630	12633	0,102,102	1	3	0	VAR_008866	S	->	P	().	Ser99Pro.	Pubmed:1757091
+#Deleted in new
+MT	12705	12708	P03915	0	+	12705	12708	0,102,102	1	3	0	VAR_035424	F	->	L	(in	LS	and	MT-C1D;	dbSNP:rs267606893).	Phe124Leu.	Pubmed:20818383,	Pubmed:11938446
+#Deleted in new
+MT	12768	12771	P03915	0	+	12768	12771	0,102,102	1	3	0	VAR_035425	E	->	G	(in	MELAS;	dbSNP:rs267606894).	Glu145Gly.	Pubmed:12509858
+#Deleted in new
+MT	12771	12774	P03915	0	+	12771	12774	0,102,102	1	3	0	VAR_008867	G	->	D	().	Gly146Asp.	Pubmed:1757091
+#Deleted in new
+MT	12813	12816	P03915	0	+	12813	12816	0,102,102	1	3	0	VAR_008868	A	->	V	().	Ala160Val.	Pubmed:1757091
+#Deleted in new
+MT	12828	12831	P03915	0	+	12828	12831	0,102,102	1	3	0	VAR_008869	N	->	S	().	Asn165Ser.	Pubmed:1757091
+#Deleted in new
+MT	12846	12849	P03915	0	+	12846	12849	0,102,102	1	3	0	VAR_035426	A	->	V	(in	LHON;	dbSNP:rs267606899).	Ala171Val.	Pubmed:16240359
+#Deleted in new
+MT	12966	12969	P03915	0	+	12966	12969	0,102,102	1	3	0	VAR_011357	T	->	P	().	Thr211Pro.	Pubmed:7530363
+#Deleted in new
+MT	13041	13044	P03915	0	+	13041	13044	0,102,102	1	3	0	VAR_035427	A	->	T	(in	MT-C1D;	dbSNP:rs267606898).	Ala236Thr.	Pubmed:15767514,	Pubmed:17400793
+#Deleted in new
+MT	13044	13047	P03915	0	+	13044	13047	0,102,102	1	3	0	VAR_035428	M	->	L	(in	MT-C1D;	dbSNP:rs267606895).	Met237Leu.	Pubmed:12509858
+#Deleted in new
+MT	13083	13086	P03915	0	+	13083	13086	0,102,102	1	3	0	VAR_035429	S	->	C	(in	LS;	dbSNP:rs267606896).	Ser250Cys.	Pubmed:12796552
+#Deleted in new
+MT	13092	13095	P03915	0	+	13092	13095	0,102,102	1	3	0	VAR_064566	V	->	A	(in	MT-C1D).	Val253Ala.	Pubmed:20818383
+#Deleted in new
+MT	13104	13107	P03915	0	+	13104	13107	0,102,102	1	3	0	VAR_011358	I	->	V	(in	dbSNP:rs2853501).	Ile257Val.	Pubmed:11553319,	Pubmed:7530363
+#Deleted in new
+MT	13245	13248	P03915	0	+	13245	13248	0,102,102	1	3	0	VAR_008870	F	->	S	().	Phe304Ser.	Pubmed:1757091
+#Deleted in new
+MT	13275	13278	P03915	0	+	13275	13278	0,102,102	1	3	0	VAR_011359	M	->	V	(in	dbSNP:rs2853502).	Met314Val.	Pubmed:7530363
+#Deleted in new
+MT	13326	13329	P03915	0	+	13326	13329	0,102,102	1	3	0	VAR_008871	T	->	A	().	Thr331Ala.	Pubmed:1757091
+#Deleted in new
+MT	13512	13515	P03915	0	+	13512	13515	0,102,102	1	3	0	VAR_035430	D	->	N	(in	MELAS	and	MT-C1D;	dbSNP:rs267606897).	Asp393Asn.	Pubmed:17400793,	Pubmed:20818383,	Pubmed:9299505
+#Deleted in new
+MT	13674	13677	P03915	0	+	13674	13677	0,102,102	1	3	0	VAR_064567	N	->	S	(detected	in	a	patient	with	mitochondrial	complex	I	deficiency;	uncertain	pathological	significance).	Asn447Ser.	Pubmed:20818383
+#Deleted in new
+MT	13707	13710	P03915	0	+	13707	13710	0,102,102	1	3	0	VAR_004761	A	->	T	(in	LHON;	secondary	mutation;	does	not	seem	to	directly	cause	the	disease;	dbSNP:rs28359178).	Ala458Thr.	Pubmed:1732158,	Pubmed:1900003
+#Deleted in new
+MT	13728	13731	P03915	0	+	13728	13731	0,102,102	1	3	0	VAR_004762	G	->	E	(in	LHON;	primary	rare	mutation;	dbSNP:rs387906425).	Gly465Glu.	Pubmed:8213825
+#Deleted in new
+MT	13758	13761	P03915	0	+	13758	13761	0,102,102	1	3	0	VAR_008603	A	->	T	().	Ala475Thr.	Pubmed:9461455
+#Deleted in new
+MT	13842	13845	P03915	0	+	13842	13845	0,102,102	1	3	0	VAR_008872	D	->	G	().	Asp503Gly.	Pubmed:1757091
+#Deleted in new
+MT	14178	14181	P03923	0	-	14178	14181	0,102,102	1	3	0	VAR_008604	Y	->	C	(in	dbSNP:rs200933339).	Tyr165Cys.	Pubmed:1757091
+#Deleted in new
+MT	14451	14454	P03923	0	-	14451	14454	0,102,102	1	3	0	VAR_014397	A	->	V	(in	MELAS;	dbSNP:rs199476107).	Ala74Val.	Pubmed:11781695
+#Deleted in new
+MT	14457	14460	P03923	0	-	14457	14460	0,102,102	1	3	0	VAR_004764	A	->	V	(in	MT-C1D	and	LDYT;	most	severe	mutation	with	no	vision	recovery;	dbSNP:rs199476105).	Ala72Val.	Pubmed:20818383,	Pubmed:8016139
+#Deleted in new
+MT	14481	14484	P03923	0	-	14481	14484	0,102,102	1	3	0	VAR_004763	M	->	V	(in	LHON;	primary	mutation;	low	severity;	up	to	50%	of	vision	recovery;	dbSNP:rs199476104).	Met64Val.	Pubmed:9452107,	Pubmed:1417830
+#Deleted in new
+MT	14481	14484	P03923	0	-	14481	14484	0,102,102	1	3	0	VAR_008512	M	->	I	(in	LHON;	possible	rare	primary	mutation;	dbSNP:rs199476108).	Met64Ile.
+#Deleted in new
+MT	14484	14487	P03923	0	-	14484	14487	0,102,102	1	3	0	VAR_064568	M	->	V	(in	MT-C1D;	dbSNP:rs199476109).	Met63Val.	Pubmed:14595656,	Pubmed:20818383
+#Deleted in new
+MT	14493	14496	P03923	0	-	14493	14496	0,102,102	1	3	0	VAR_014396	L	->	S	(in	LHON;	possible	rare	primary	mutation;	dbSNP:rs199476106).	Leu60Ser.	Pubmed:11133798
+#Deleted in new
+MT	14496	14499	P03923	0	-	14496	14499	0,102,102	1	3	0	VAR_008396	Y	->	C	(in	LHON;	possible	rare	primary	mutation;	dbSNP:rs869025186).	Tyr59Cys.	Pubmed:8854108
+#Deleted in new
+MT	14499	14502	P03923	0	-	14499	14502	0,102,102	1	3	0	VAR_014395	I	->	V	(in	dbSNP:rs201327354).	Ile58Val.	Pubmed:2043137
+#Deleted in new
+MT	14565	14568	P03923	0	-	14565	14568	0,102,102	1	3	0	VAR_008395	G	->	S	(in	LHON;	possible	rare	primary	mutation;	dbSNP:rs397515506).	Gly36Ser.	Pubmed:10447650
+#Deleted in new
+MT	14574	14577	P03923	0	-	14574	14577	0,102,102	1	3	0	VAR_014394	I	->	V	(in	dbSNP:rs386829219).	Ile33Val.	Pubmed:11133798
+#Deleted in new
+MT	14580	14583	P03923	0	-	14580	14583	0,102,102	1	3	0	VAR_014393	V	->	A	(in	dbSNP:rs41354845).	Val31Ala.	Pubmed:11133798
+#Deleted in new
+MT	14595	14598	P03923	0	-	14595	14598	0,102,102	1	3	0	VAR_008394	I	->	M	(in	LDYT;	possible	rare	primary	mutation;	dbSNP:rs387906424).	Ile26Met.	Pubmed:8644732
+#Deleted in new
+MT	14764	14767	P00156	0	+	14764	14767	0,102,102	1	3	0	VAR_008585	T	->	I	(in	dbSNP:rs3135031).	Thr7Ile.	Pubmed:11553319,	Pubmed:10453733
+#Deleted in new
+MT	14767	14770	P00156	0	+	14767	14770	0,102,102	1	3	0	VAR_013643	N	->	S	(in	dbSNP:rs28357679).	Asn8Ser.	Pubmed:11553319,	Pubmed:10453733,	Pubmed:11130070
+#Deleted in new
+MT	14797	14800	P00156	0	+	14797	14800	0,102,102	1	3	0	VAR_013644	F	->	L	(in	dbSNP:rs28357681).	Phe18Leu.	Pubmed:11553319,	Pubmed:10453733,	Pubmed:11130070
+#Deleted in new
+MT	14845	14848	P00156	0	+	14845	14848	0,102,102	1	3	0	VAR_013645	G	->	S	(in	mitochondrial	myopathy;	sporadic;	dbSNP:rs207459998).	Gly34Ser.	Pubmed:10502593
+#Deleted in new
+MT	14848	14851	P00156	0	+	14848	14851	0,102,102	1	3	0	VAR_033058	S	->	P	(in	exercice	intolerance;	with	cardiomyopathy	and	septo-optic	dysplasia;	dbSNP:rs207460004).	Ser35Pro.	Pubmed:11891837
+#Deleted in new
+MT	14860	14863	P00156	0	+	14860	14863	0,102,102	1	3	0	VAR_013646	A	->	V	().	Ala39Val.	Pubmed:11130070
+#Deleted in new
+MT	14860	14863	P00156	0	+	14860	14863	0,102,102	1	3	0	VAR_015571	A	->	T	(in	dbSNP:rs2853505).	Ala39Thr.	Pubmed:12022039
+#Deleted in new
+MT	14977	14980	P00156	0	+	14977	14980	0,102,102	1	3	0	VAR_013647	I	->	T	(in	dbSNP:rs200786872).	Ile78Thr.	Pubmed:11130070
+#Deleted in new
+MT	14977	14980	P00156	0	+	14977	14980	0,102,102	1	3	0	VAR_015572	I	->	V	(in	dbSNP:rs199997767).	Ile78Val.	Pubmed:12022039
+#Deleted in new
+MT	14983	14986	P00156	0	+	14983	14986	0,102,102	1	3	0	VAR_008388	R	->	H	(in	colorectal	cancer;	dbSNP:rs207459995).	Arg80His.	Pubmed:9806551
+#Deleted in new
+MT	15004	15007	P00156	0	+	15004	15007	0,102,102	1	3	0	VAR_008586	A	->	P	().	Ala87Pro.	Pubmed:1757091
+#Deleted in new
+MT	15109	15112	P00156	0	+	15109	15112	0,102,102	1	3	0	VAR_013648	A	->	T	(in	dbSNP:rs28357685).	Ala122Thr.	Pubmed:11553319,	Pubmed:11130070
+#Deleted in new
+MT	15112	15115	P00156	0	+	15112	15115	0,102,102	1	3	0	VAR_013649	T	->	A	().	Thr123Ala.	Pubmed:11130070
+#Deleted in new
+MT	15196	15199	P00156	0	+	15196	15199	0,102,102	1	3	0	VAR_013650	S	->	P	(in	exercise	intolerance;	dbSNP:rs207460001).	Ser151Pro.	Pubmed:11464242
+#Deleted in new
+MT	15202	15205	P00156	0	+	15202	15205	0,102,102	1	3	0	VAR_013651	I	->	T	(in	dbSNP:rs28357687).	Ile153Thr.	Pubmed:11130070
+#Deleted in new
+MT	15235	15238	P00156	0	+	15235	15238	0,102,102	1	3	0	VAR_013652	I	->	V	(in	dbSNP:rs201250154).	Ile164Val.	Pubmed:11553319
+#Deleted in new
+MT	15241	15244	P00156	0	+	15241	15244	0,102,102	1	3	0	VAR_013653	G	->	E	(in	hyperthrophic	cardiomyopathy;	dbSNP:rs193302990).	Gly166Glu.	Pubmed:10453733
+#Deleted in new
+MT	15256	15259	P00156	0	+	15256	15259	0,102,102	1	3	0	VAR_002197	D	->	N	(in	LHON;	secondary	mutation;	does	not	seem	to	directly	cause	the	disease;	dbSNP:rs41518645).	Asp171Asn.	Pubmed:1732158
+#Deleted in new
+MT	15310	15316	P00156	0	+	15310	15316	0,102,102	1	6	0	VAR_013654	IA	->	VT	().	IleAla189ValThr.
+#Deleted in new
+MT	15316	15319	P00156	0	+	15316	15319	0,102,102	1	3	0	VAR_011339	A	->	T	(in	dbSNP:rs2853507).	Ala191Thr.	Pubmed:7530363,	Pubmed:12022039
+#Deleted in new
+MT	15325	15328	P00156	0	+	15325	15328	0,102,102	1	3	0	VAR_011340	T	->	A	(in	dbSNP:rs2853508).	Thr194Ala.	Pubmed:11553319,	Pubmed:10453733
+#Deleted in new
+MT	15430	15433	P00156	0	+	15430	15433	0,102,102	1	3	0	VAR_011341	A	->	T	(in	dbSNP:rs2853509).	Ala229Thr.	Pubmed:11553319,	Pubmed:11130070,	Pubmed:7530363
+#Deleted in new
+MT	15451	15454	P00156	0	+	15451	15454	0,102,102	1	3	0	VAR_013655	L	->	I	(in	dbSNP:rs3088309).	Leu236Ile.	Pubmed:11553319,	Pubmed:10453733,	Pubmed:11130070
+#Deleted in new
+MT	15496	15499	P00156	0	+	15496	15499	0,102,102	1	3	0	VAR_013656	G	->	D	(in	CMIH;	dbSNP:rs207460003).	Gly251Asp.	Pubmed:10960495
+#Deleted in new
+MT	15496	15499	P00156	0	+	15496	15499	0,102,102	1	3	0	VAR_033059	G	->	S	(associated	with	susceptibility	to	obesity;	dbSNP:rs199951903).	Gly251Ser.	Pubmed:12905068
+#Deleted in new
+MT	15496	15520	P00156	0	+	15496	15520	0,102,102	1	24	0	VAR_013657	Missing	(in	mitochondrial	myopathy;	sporadic).	Missing.	Pubmed:10502593
+#Deleted in new
+MT	15508	15511	P00156	0	+	15508	15511	0,102,102	1	3	0	VAR_013658	N	->	H	(in	cardiomyopathy;	fatal;	post-partum).	Asn255His.	Pubmed:7623448
+#Deleted in new
+MT	15523	15526	P00156	0	+	15523	15526	0,102,102	1	3	0	VAR_015573	N	->	D	().	Asn260Asp.	Pubmed:12022039
+#Deleted in new
+MT	15571	15574	P00156	0	+	15571	15574	0,102,102	1	3	0	VAR_008389	F	->	L	(in	colorectal	cancer;	dbSNP:rs207459996).	Phe276Leu.	Pubmed:9806551
+#Deleted in new
+MT	15577	15580	P00156	0	+	15577	15580	0,102,102	1	3	0	VAR_013659	Y	->	C	(in	multisystem	disorder;	dbSNP:rs207460002).	Tyr278Cys.	Pubmed:11601507
+#Deleted in new
+MT	15613	15616	P00156	0	+	15613	15616	0,102,102	1	3	0	VAR_013660	G	->	D	(in	exercise	intolerance;	dbSNP:rs207459997).	Gly290Asp.	Pubmed:8910895
+#Deleted in new
+MT	15661	15664	P00156	0	+	15661	15664	0,102,102	1	3	0	VAR_013661	I	->	T	(in	dbSNP:rs369851331).	Ile306Thr.	Pubmed:11130070
+#Deleted in new
+MT	15691	15694	P00156	0	+	15691	15694	0,102,102	1	3	0	VAR_013662	M	->	T	(in	dbSNP:rs200975632).	Met316Thr.	Pubmed:10453733
+#Deleted in new
+MT	15730	15733	P00156	0	+	15730	15733	0,102,102	1	3	0	VAR_013663	A	->	T	().	Ala329Thr.	Pubmed:11130070
+#Deleted in new
+MT	15733	15736	P00156	0	+	15733	15736	0,102,102	1	3	0	VAR_013664	A	->	T	().	Ala330Thr.	Pubmed:11553319
+#Deleted in new
+MT	15745	15748	P00156	0	+	15745	15748	0,102,102	1	3	0	VAR_013665	I	->	V	().	Ile334Val.	Pubmed:11130070
+#Deleted in new
+MT	15760	15763	P00156	0	+	15760	15763	0,102,102	1	3	0	VAR_002198	G	->	E	(in	mitochondrial	myopathy).	Gly339Glu.	Pubmed:9818877
+#Deleted in new
+MT	15802	15805	P00156	0	+	15802	15805	0,102,102	1	3	0	VAR_013666	V	->	M	().	Val353Met.	Pubmed:11130070
+#Deleted in new
+MT	15811	15814	P00156	0	+	15811	15814	0,102,102	1	3	0	VAR_002199	V	->	M	(in	LHON;	secondary	mutation;	does	not	seem	to	directly	cause	the	disease;	dbSNP:rs200336777).	Val356Met.	Pubmed:1732158,	Pubmed:11130070
+#Deleted in new
+MT	15823	15826	P00156	0	+	15823	15826	0,102,102	1	3	0	VAR_013667	T	->	A	(in	dbSNP:rs28357376).	Thr360Ala.	Pubmed:11553319
+#Deleted in new
+MT	15847	15850	P00156	0	+	15847	15850	0,102,102	1	3	0	VAR_013668	T	->	I	(in	dbSNP:rs202225494).	Thr368Ile.	Pubmed:11553319,	Pubmed:11130070

@@ -1,0 +1,38 @@
+#Split in new
+chr10	1216967	1242198	Q9NS39	0	-	1216967	1242198	0,153,0	3	3,3,3	0,16769,25228	.	Zinc.
+#Partially deleted in new
+chr10	46387638	46388401	Q5VT79	0	+	46387638	46388401	0,153,0	3	3,3,3	0,754,760	.	Calcium;	via	carbonyl	oxygen.
+#Partially deleted in new
+chr12	6919630	6921669	P09104	0	+	6919630	6921669	0,153,0	3	3,3,3	0,1961,2036	.	Magnesium.
+#Partially deleted in new
+chr12	121521089	121534550	Q8NHM5	0	-	121521089	121534550	0,153,0	3	3,3,3	0,13452,13458	.	Iron;	catalytic.
+#Partially deleted in new
+chr20	47097099	47183361	O00167	0	+	47097099	47183361	0,153,0	2	3,3	0,86259	.	Magnesium.	Pubmed:19351884,	Pubmed:19351884
+#Partially deleted in new
+chr22	21923244	21933546	P49593	0	-	21923244	21933546	0,153,0	3	3,3,3	0,132,10299	.	Manganese	2.
+#Partially deleted in new
+chr6	39925834	39927341	Q9NZB8	0	-	39925834	39927341	0,153,0	3	3,3,3	0,9,1504	.	Iron-sulfur	1	(4Fe-4S-S-AdoMet).
+#Split in new
+chr6	57537463	57632174	P49643	0	+	57537463	57632174	0,153,0	4	3,3,3,3	0,63707,68913,94708	.	Iron-sulfur	(4Fe-4S).
+#Partially deleted in new
+chr7	71416034	71665464	Q6IS24	0	+	71416034	71665464	0,153,0	3	3,3,3	0,6,249427	.	Manganese.
+#Partially deleted in new
+chr7	142773287	142773320	P07478	0	+	142773287	142773320	0,153,0	2	3,3	0,30	.	Calcium.
+#Deleted in new
+chr7	142792512	142792545	P07477	0	+	142792512	142792545	0,153,0	2	3,3	0,30	.	Calcium.
+#Deleted in new
+chr7	142792518	142792530	P07477	0	+	142792518	142792530	0,153,0	2	3,3	0,9	.	Calcium;	via	carbonyl	oxygen.
+#Partially deleted in new
+chrX	149490314	149504264	P22304	0	-	149490314	149504264	0,153,0	4	3,3,3,3	0,3,13944,13947	.	Calcium.
+#Deleted in new
+MT	6083	7037	P00395	0	+	6083	7037	0,153,0	2	3,3	0,951	.	Iron	(heme	A	axial	ligand).
+#Deleted in new
+MT	6620	6776	P00395	0	+	6620	6776	0,153,0	4	3,3,3,3	0,12,150,153	.	Copper	B.
+#Deleted in new
+MT	7028	7031	P00395	0	+	7028	7031	0,153,0	1	3	0	.	Iron	(heme	A3	axial	ligand).
+#Deleted in new
+MT	8065	8197	P00403	0	+	8065	8197	0,153,0	4	3,3,3,3	0,105,117,129	.	Copper	A.
+#Deleted in new
+MT	14992	15292	P00156	0	+	14992	15292	0,153,0	2	3,3	0,297	.	Iron	1	(heme	b562	axial	ligand).
+#Deleted in new
+MT	15034	15334	P00156	0	+	15034	15334	0,153,0	2	3,3	0,297	.	Iron	2	(heme	b566	axial	ligand).
