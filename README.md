@@ -1,11 +1,36 @@
 UniProt provides [human genome annotation data](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/) enabling mapping of amino acid coordinates directly to reference genome coordinates,
-but only available as hg38 coordinates.  This repository converts and makes this data available in hg19 coordinates.
+but they are only available as hg38 coordinates.  This repository converts and makes this data available in hg19 coordinates.
+
+# Files for download:
+Besides conversion to hg19 coordinated, few changes are made here to suit our purposes. See *'Processing pipeline'* section for details.
+
+* [Restructured and hg19 converted bed files](https://github.com/ManavalanG/UniProt-genome-annotations-hg19/blob/master/hg19_UniProt_genome_annotations.zip). This is what you probably are interested in.
+* [Merged bedfile](https://github.com/ManavalanG/UniProt-genome-annotations-hg19) containing only selected 17 sequence annotations of interest, as listed below, from UniProt reviewed proteins.
+
+        1. Active site
+        2. Binding site for any chemical group
+        3. Calcium binding region
+        4. Glycosylation-PTM
+        5. Cross-link between proteins
+        6. Disulfide bond
+        7. Lipidation-PTM
+        8. Metal binding site
+        9. Other PTM
+        10. Motif
+        11. Nucleotide binding region
+        12. Region of interest
+        13. Signal peptide
+        14. Interesting site
+        15. Transit peptide
+        16. Natural variant
+        17. Zinc finger region
+
 
 
 # Processing pipeline:
 
 1. Uses [liftOver](http://genome.ucsc.edu/cgi-bin/hgLiftOver) tool for conversion of hg38 to hg19 coordinates.
-Note: If you are interested in excecuting the script, download this chain file (TODO: add link) and store it in settings_files directory (TODO: add link).
+Note: If you are interested in excecuting the script, download [this chain file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/liftOver/hg38ToHg19.over.chain.gz) and store it in [settings_files directory](https://github.com/ManavalanG/UniProt-genome-annotations-hg19/tree/master/settings_files).
 It is not provided here due to license concerns.
 2. Fix formatting issues in resulting bed files
 3. Reformat bedfiles as follows:
@@ -22,6 +47,7 @@ It is not provided here due to license concerns.
 
 
     b. Restructure rows in bedfiles that have >1 non-continuous amino acids as in example below.
+    b. Restructure rows in bedfiles that have >1 non-continuous amino acids as in example below.
 
     ```
     Original format by UniProt (this line has coordinates for three, non-continuous amino acids):
@@ -33,15 +59,20 @@ It is not provided here due to license concerns.
     >chr1	1569191	1569194	O75900	Metal binding site	+	1569191	1569194	0,153,0	1	3	0	.	Zinc; catalytic.
     ```
 
-Resulting data (TODO: Insert hg19 zip file link) is what you probably need if you are looking for replacement for UniProt provided hg38 genome coordinates in hg19 format.
+    [Resulting data](https://github.com/ManavalanG/UniProt-genome-annotations-hg19/blob/master/hg19_UniProt_genome_annotations.zip) is what you probably need if you are looking for replacement for UniProt provided hg38 genome coordinates in hg19 format.
 
 
-## Further Restructuring:
+
+**Further Restructuring:**
+
 We further merge sequence annotation types of our interest into a single bed file, only if such annotations have reviewed status from UniProt.
-4. Merge bedfiles of interest (as cutomized in setting file (TODO: insert setting file link)) based on sequence annotation types into a single file (TODO: insert link).
+
+4. Merge bedfiles of interest (as cutomized in [setting file](https://github.com/ManavalanG/UniProt-genome-annotations-hg19/blob/master/settings_files/Settings_UniProt_compare.csv)) based on sequence annotation types into a single file.
 5. Filter out the annotations that are not reviewed by UniProt.
+
+Download the resulting merged bedfile [here](https://github.com/ManavalanG/UniProt-genome-annotations-hg19/blob/master/merged_select_UniProt_hg19_restructured.bed).
 
 
 # Disclaimer
-UniProt's [license](http://www.uniprot.org/help/license) applies for the data available here.  We would like to thank UniProt for providing us permission to redistribute this data in hg19 assembly format.
+UniProt's [license](http://www.uniprot.org/help/license) applies for the data available here.  We thank UniProt for providing us permission to redistribute this data in hg19 assembly format.
 
