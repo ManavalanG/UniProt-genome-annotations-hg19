@@ -1,9 +1,9 @@
-UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling mapping of amino acid annotations directly to reference genome coordinates, but they are available in hg38 coordinates.  This repository converts and makes this data available in *hg19 coordinates*.
+UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling mapping of amino acid annotations directly to reference genome coordinates, but they are available only in hg38 coordinates.  This repository converts and makes this data available in *hg19 coordinates*.
 
 # Files for download:
 Besides conversion to hg19 coordinated, few changes are made here to suit our purposes. See *'Processing pipeline'* section for details.
 
-* [Restructured and hg19-converted Bed files](hg19_UniProt_genome_annotations.zip). This is what you probably are interested in.
+* [Restructured, hg19-converted Bed files](hg19_UniProt_genome_annotations.zip). This is what you probably are interested in.
 * [Merged bedfile](merged_select_UniProt_hg19_restructured.bed) containing only selected 17 [sequence annotations](http://www.uniprot.org/help/sequence_annotation) of interest, as listed below, from UniProt reviewed proteins.
 
         1. Active site
@@ -28,7 +28,7 @@ Besides conversion to hg19 coordinated, few changes are made here to suit our pu
 
 # Processing pipeline:
 
-1. Uses [liftOver](http://genome.ucsc.edu/cgi-bin/hgLiftOver) tool for conversion of hg38 to hg19 coordinates.
+1. Use [liftOver](http://genome.ucsc.edu/cgi-bin/hgLiftOver) tool for conversion of hg38 to hg19 coordinates.
 Note: If you are interested in excecuting the script, download [chain file](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/liftOver/hg38ToHg19.over.chain.gz) and store it in [settings_files directory](settings_files).
 It is not provided here due to license concerns.
 2. Fix formatting issues in resulting Bed files
@@ -63,7 +63,7 @@ It is not provided here due to license concerns.
 
 **Further Restructuring:**
 
-We further merge sequence annotation types of our interest into a single Bed file, only if such annotations have reviewed status from UniProt.
+We further merge sequence annotation types of our interest into a single Bed file, only if such annotations have UniProt's reviewed status.
 
 4. Merge Bed files of interest (as cutomized in [setting file](./settings_files/Settings_UniProt_compare.csv) based on sequence annotation types into a single file.
 5. Filter out the annotations that are not reviewed by UniProt.
