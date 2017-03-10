@@ -15,6 +15,8 @@ from glob import glob
 from subprocess import call
 import csv
 from settings_files.fn_replace_acronyms import replace_acronyms_in_natural_variant
+from pybedtools import BedTool
+import shutil
 
 # function to parse settings file
 def parse_settings(settings_filename):
@@ -102,13 +104,14 @@ def mkdir_if_not_exists(dir_path):
 
 # function to make a file and delete and make a newfile if it already exists
 def create_newfile(directory, filename):
-    # creates a bed file that will have merged data of bedfiles of interest for variant analysis
+    # creates a bed file that will have merged data of bedfiles of interest
     merged_outbedfile = os.path.join(directory, filename)
     if os.path.exists(merged_outbedfile):  # deletes file if it exists. This is done to create and append to a new file.
         os.remove(merged_outbedfile)
 
-    with open(merged_outbedfile, 'w') as out_handle:    # write title
-        out_handle.write('#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tg_start\tg_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n')
+    # Commented out since use of bedtools' sorting feature removes the title line while sorting.
+    # with open(merged_outbedfile, 'w') as out_handle:    # write title
+    #     out_handle.write('#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tg_start\tg_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n')
 
     return merged_outbedfile
 
@@ -134,11 +137,14 @@ mkdir_if_not_exists(build19_output_dir)
 fixed_bed19_outdir = os.path.join(build19_output_dir, 'hg19_format_fixed')    # dir to have format-corrected build19 bed files
 mkdir_if_not_exists(fixed_bed19_outdir)
 
-# creates a bed file that will have merged data of bedfiles of interest for variant analysis
-merged_bedfile_for_analysis = create_newfile(directory='.', filename='merged_select_UniProt_hg19_restructured_for_variant_analysis.bed')
+# creates a bed file that will have merged data of bedfiles with annotation types labelled as type 1 in settings file
+mkdir_if_not_exists('Download_data')
+merged_type1_filename = 'Download_data/merged_select_UniProt_hg19_restructured_type1.bed'
+merged_bedfile_type1 = create_newfile(directory='.', filename=merged_type1_filename)
 
-# creates a bed file that will have merged data of bedfiles of interest for info display purpose only
-merged_bedfile_for_info = create_newfile(directory='.', filename='merged_select_UniProt_hg19_restructured_for_info_display.bed')
+# creates a bed file that will have merged data of bedfiles with annotation types labelled as type 0 in settings file
+merged_type0_filename = 'Download_data/merged_select_UniProt_hg19_restructured_type0.bed'
+merged_bedfile_type0 = create_newfile(directory='.', filename=merged_type0_filename)
 
 
 # liftOver tools requires chain file for propper mapping between genome assemblies
@@ -192,13 +198,13 @@ for bed_file in input_file_list:
         else:
             natural_variant_bed = False
 
-        # for annotations used with variant analysis
+            # for annotations that are labelled as type 1 in settings file
         # append into a single bed file for annotations of interest
-        append_to_mergefile(merged_bedfile_for_analysis, fixed_bed19_outfile, settings_dict, annotation_type, annotation_value='1')
+        append_to_mergefile(merged_bedfile_type1, fixed_bed19_outfile, settings_dict, annotation_type, annotation_value='1')
 
-        # for annotations that will be used only for information display purposes and not for variant analysis
+        # for annotations that are labelled as type 0 in settings file
         # append into a single bed file for annotations of interest
-        append_to_mergefile(merged_bedfile_for_info, fixed_bed19_outfile, settings_dict, annotation_type, annotation_value='0')
+        append_to_mergefile(merged_bedfile_type0, fixed_bed19_outfile, settings_dict, annotation_type, annotation_value='0')
 
 
         # for 'natural variant' bed file, delete the temporary bed file which had disease acronym replaced with full name
@@ -208,3 +214,19 @@ for bed_file in input_file_list:
 
     else:           # proteome bed file doesn't have 14-column structure as other bed files. They can be copied into a new file without any modification.
         copyfile(build19_outfile, fixed_bed19_outfile)
+
+
+# sorts the contents of merged bed file
+title_line = '#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tg_start\tg_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n'
+for filename in [merged_type0_filename, merged_type1_filename]:
+    bed_data = BedTool(filename)
+    bed_data.sort().saveas(filename)
+
+    # Bedtools' sorting removes title line. Following part writes title as first line of the file
+    with open(filename, 'r') as original: data = original.read()
+    with open(filename, 'w') as modified: modified.write(title_line + data)
+
+
+# Zips hg19 converted bed files and puts it into download directory
+dir_name = os.path.join(input_bedfiles_dir, 'convert2hg19/hg19_format_fixed')
+shutil.make_archive('Download_data/hg19_UniProt_genome_annotations_Feb2017', 'zip', dir_name)
