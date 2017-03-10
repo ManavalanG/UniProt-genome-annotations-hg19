@@ -4,7 +4,7 @@ UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling 
 Besides conversion to hg19 coordinated, few changes are made here to suit our purposes, which is to identify if query amino acids have any UniProt annotation. See *'Processing pipeline'* section for details.
 
 * [Restructured, hg19-converted Bed files](./Download_data/hg19_UniProt_genome_annotations_Feb2017.zip). This is what you probably are interested in.
-* Two merged Bed files ([type1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed) and [type0](./Download_data/merged_select_UniProt_hg19_restructured_type0.bed)) depending on the annotation type only from UniProt reviewed proteins.
+* Two merged Bed files ([type1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed) and [type0](./Download_data/merged_select_UniProt_hg19_restructured_type.bed)) depending on the annotation type only from UniProt reviewed proteins.
 
 * Two merged files each containing selective [sequence annotations](http://www.uniprot.org/help/sequence_annotation) of interest, as listed below, from UniProt reviewed proteins.
 
@@ -73,7 +73,7 @@ It is not provided here due to license concerns.
     >chr1	1569191	1569194	O75900	Metal binding site	+	1569191	1569194	0,153,0	1	3	0	.	Zinc; catalytic.
     ```
 
-    [Resulting Bed files](./Download_data/hg19_UniProt_genome_annotations.zip) are what you probably need if you are looking for replacement for UniProt provided hg38 genome coordinates in hg19 format.
+    [Resulting Bed files](./Download_data/hg19_UniProt_genome_annotations_Feb2017) are what you probably need if you are looking for replacement for UniProt provided hg38 genome coordinates in hg19 format.
 
 
 
