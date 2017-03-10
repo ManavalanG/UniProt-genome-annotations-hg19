@@ -3,8 +3,8 @@ UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling 
 # Files for download:
 Besides conversion to hg19 coordinated, few changes are made here to suit our purposes, which is to identify if query amino acids have any UniProt annotation. See *'Processing pipeline'* section for details.
 
-* [Restructured, hg19-converted Bed files](./Download_data/hg19_UniProt_genome_annotations.zip). This is what you probably are interested in.
-* Two merged Bed files ([type1](merged_select_UniProt_hg19_restructured_type1.bed) and [type0](merged_select_UniProt_hg19_restructured_type0.bed)) depending on the annotation type only from UniProt reviewed proteins.
+* [Restructured, hg19-converted Bed files](./Download_data/hg19_UniProt_genome_annotations_Feb2017.zip). This is what you probably are interested in.
+* Two merged Bed files ([type1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed) and [type0](./Download_data/merged_select_UniProt_hg19_restructured_type0.bed)) depending on the annotation type only from UniProt reviewed proteins.
 
 * Two merged files each containing selective [sequence annotations](http://www.uniprot.org/help/sequence_annotation) of interest, as listed below, from UniProt reviewed proteins.
 
@@ -90,7 +90,7 @@ Download the resulting merged bed files:
 
 a. [Merged Bed file - Type 1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed)
 
-b. [Merged Bed file - Type 0](./Download_data/Amerged_select_UniProt_hg19_restructured_type0.bed)
+b. [Merged Bed file - Type 0](./Download_data/merged_select_UniProt_hg19_restructured_type0.bed)
 
 
 # Disclaimer
