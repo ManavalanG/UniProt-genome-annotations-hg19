@@ -14,7 +14,7 @@ from shutil import copyfile, copyfileobj
 from glob import glob
 from subprocess import call
 import csv
-
+from settings_files.fn_replace_acronyms import replace_acronyms_in_natural_variant
 
 # function to parse settings file
 def parse_settings(settings_filename):
@@ -33,7 +33,7 @@ def parse_settings(settings_filename):
 
 
 # Function to fix bed file format during conversion from hg-build38 to build19.
-# Also, converts rows with multiple annotations to separate lines.
+# Also, converts rows with multiple non-continuous amino acid annotations to separate lines.
 def edit_bedfile(input_bed, settings_dict, annotation_type, disulfide_bedfile, output_bed_handle):
     csv_input_bed = csv.reader(input_bed, delimiter='\t')
     for row in csv_input_bed:
@@ -95,6 +95,31 @@ def edit_bedfile(input_bed, settings_dict, annotation_type, disulfide_bedfile, o
     output_bed_handle.close()
 
 
+# function to create directory if doesnt already exist
+def mkdir_if_not_exists(dir_path):
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
+
+# function to make a file and delete and make a newfile if it already exists
+def create_newfile(directory, filename):
+    # creates a bed file that will have merged data of bedfiles of interest for variant analysis
+    merged_outbedfile = os.path.join(directory, filename)
+    if os.path.exists(merged_outbedfile):  # deletes file if it exists. This is done to create and append to a new file.
+        os.remove(merged_outbedfile)
+
+    with open(merged_outbedfile, 'w') as out_handle:    # write title
+        out_handle.write('#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tg_start\tg_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n')
+
+    return merged_outbedfile
+
+
+# function to append data to existing file based on annotation type
+def append_to_mergefile(merged_bedfilename, fixed_bed19_outfile, settings_dict, annotation_type, annotation_value):
+    with open(merged_bedfilename, 'ab') as combined_handle:
+        if settings_dict[annotation_type][1] == annotation_value:
+            with open(fixed_bed19_outfile, 'rb') as edited_bed:
+                copyfileobj(edited_bed, combined_handle, 1024 * 1024 * 10)  # 10MB per writing chunk to avoid reading big file into memory.
+
 
 # read settings file
 settings_filename = 'settings_files/Settings_UniProt_compare.csv'
@@ -105,16 +130,15 @@ input_bedfiles_dir = 'hg38_uniprot_bedfiles/UP000005640_9606_beds'
 input_file_list = glob(input_bedfiles_dir + '/*.bed')
 
 build19_output_dir = os.path.join(input_bedfiles_dir, 'convert2hg19')   # dir to store liftOver output data in hg-build19 format
-if not os.path.exists(build19_output_dir):
-    os.makedirs(build19_output_dir)
+mkdir_if_not_exists(build19_output_dir)
 fixed_bed19_outdir = os.path.join(build19_output_dir, 'hg19_format_fixed')    # dir to have format-corrected build19 bed files
-if not os.path.exists(fixed_bed19_outdir):
-    os.makedirs(fixed_bed19_outdir)
+mkdir_if_not_exists(fixed_bed19_outdir)
 
-# creates a bed file that will have merged data of bedfiles of interest
-merged_bedfile = os.path.join(fixed_bed19_outdir, 'merged_select_UniProt_hg19_restructured.bed')
-if os.path.exists(merged_bedfile):  # deletes file if it exists. This is done to create and append to a new file.
-    os.remove(merged_bedfile)
+# creates a bed file that will have merged data of bedfiles of interest for variant analysis
+merged_bedfile_for_analysis = create_newfile(directory='.', filename='merged_select_UniProt_hg19_restructured_for_variant_analysis.bed')
+
+# creates a bed file that will have merged data of bedfiles of interest for info display purpose only
+merged_bedfile_for_info = create_newfile(directory='.', filename='merged_select_UniProt_hg19_restructured_for_info_display.bed')
 
 
 # liftOver tools requires chain file for propper mapping between genome assemblies
@@ -147,11 +171,11 @@ for bed_file in input_file_list:
     # Following part fixes this issue and converts them back into single column.
     # Tried using pandas and csv modules, but neither could properly handle multi-column data without complicating scripting. Hence, straight-forward scripting was done and this is lot simpler and is not taxing on time/memory either.
     fixed_bed19_outfile = os.path.join(fixed_bed19_outdir, '_'.join( ['hg19_final', base_filename]) )
-    if base_filename[-13:] != '_proteome.bed':      # proteome bed file doesn't have 14-column structure as other bed files. They can be copied into a new file without any modification.
+    if not base_filename.endswith('_proteome.bed'):      # proteome bed file doesn't have 14-column structure as other bed files. They can be copied into a new file without any modification.
         annotation_type = base_filename.replace('UP000005640_9606_', '')
         annotation_type = annotation_type.replace('.bed', '')
 
-        if base_filename[-13:] == '_disulfid.bed':
+        if base_filename.endswith('_disulfid.bed'):
             disulfide_bed = True
         else:
             disulfide_bed = False
@@ -161,12 +185,26 @@ for bed_file in input_file_list:
             with open(build19_outfile, 'Ur') as bed19_handle:
                 edit_bedfile(bed19_handle, settings_dict, annotation_type, disulfide_bed, edited_bed_handle)
 
+        # for 'natural variant' bed file, disease acronym in column 14 need to replaced with full name
+        if base_filename.endswith('_variant.bed'):
+            natural_variant_bed = True
+            fixed_bed19_outfile = replace_acronyms_in_natural_variant(fixed_bed19_outfile, diseases_acronym_file='settings_files/diseases-all.tab')  # replaces acronym with full name and writes them in a temporary file
+        else:
+            natural_variant_bed = False
 
+        # for annotations used with variant analysis
         # append into a single bed file for annotations of interest
-        with open(merged_bedfile, 'ab') as combined_handle:
-            if settings_dict[annotation_type][1] == '1':
-                with open(fixed_bed19_outfile, 'rb') as edited_bed_handle:
-                    copyfileobj(edited_bed_handle, combined_handle, 1024 * 1024 * 10)  # 10MB per writing chunk to avoid reading big file into memory.
+        append_to_mergefile(merged_bedfile_for_analysis, fixed_bed19_outfile, settings_dict, annotation_type, annotation_value='1')
+
+        # for annotations that will be used only for information display purposes and not for variant analysis
+        # append into a single bed file for annotations of interest
+        append_to_mergefile(merged_bedfile_for_info, fixed_bed19_outfile, settings_dict, annotation_type, annotation_value='0')
+
+
+        # for 'natural variant' bed file, delete the temporary bed file which had disease acronym replaced with full name
+        if natural_variant_bed:
+            os.remove(fixed_bed19_outfile)
+
 
     else:           # proteome bed file doesn't have 14-column structure as other bed files. They can be copied into a new file without any modification.
         copyfile(build19_outfile, fixed_bed19_outfile)
