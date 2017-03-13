@@ -93,5 +93,5 @@ b. [Merged Bed file - Type 0](./Download_data/merged_select_UniProt_hg19_restruc
 
 
 # Disclaimer
-UniProt's [license](http://www.uniprot.org/help/license) applies for the genome coordinates data available in this repository.  Thanks to UniProt for permitting us to distribute this data in hg19 format.  This data is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+UniProt's [license](http://www.uniprot.org/help/license) applies for the genome coordinates data available in this repository.  Thanks to UniProt for permitting us to distribute this data in hg19 format. Code in this repository is distributed under MIT license. Data and code here is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
