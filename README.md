@@ -4,9 +4,8 @@ UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling 
 Besides conversion to hg19 coordinated, few changes are made here to suit our purposes, which is to identify if query amino acids have any UniProt annotation. See *'Processing pipeline'* section for details.
 
 * [Restructured, hg19-converted Bed files](./Download_data/hg19_UniProt_genome_annotations_Feb2017.zip). This is what you probably are interested in.
-* Two merged Bed files ([type1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed) and [type0](./Download_data/merged_select_UniProt_hg19_restructured_type0.bed)) depending on the annotation type only from UniProt reviewed proteins.
 
-* Two merged files each containing selective [sequence annotations](http://www.uniprot.org/help/sequence_annotation) of interest, as listed below, from UniProt reviewed proteins.
+* Two merged files each containing selective [sequence annotations](http://www.uniprot.org/help/sequence_annotation) of interest, as listed below.
 
     a. [Merged file - Type 1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed) has following annotation types merged into a single file.
 
@@ -78,11 +77,10 @@ It is not provided here due to license concerns.
 
 #### Further Restructuring:
 
-We further merge sequence annotation types of our interest into two Bed files, only if such annotations have UniProt's reviewed status.
+We further merge sequence annotation types of our interest into two Bed files.
 
-4. Filter out annotations that are not reviewed by UniProt.
-5. For annotation type 'natural variant', replace disease acronyms with their complete name.
-6. Merge Bed files of interest (as customized in the [settings file](./settings_files/Settings_UniProt_compare.csv); based on values 0 and 1) based on sequence annotation types into two sets of merged files.
+4. For annotation type 'natural variant', replace disease acronyms with their complete name.
+5. Merge Bed files of interest (as customized in the [settings file](./settings_files/Settings_UniProt_compare.csv); based on values 0 and 1) based on sequence annotation types into two sets of merged files.
 
 
 Download the resulting merged bed files:

@@ -111,7 +111,7 @@ def create_newfile(directory, filename):
 
     # Commented out since use of bedtools' sorting feature removes the title line while sorting.
     # with open(merged_outbedfile, 'w') as out_handle:    # write title
-    #     out_handle.write('#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tg_start\tg_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n')
+    #     out_handle.write('#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tthick_start\tthick_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n')
 
     return merged_outbedfile
 
@@ -217,7 +217,7 @@ for bed_file in input_file_list:
 
 
 # sorts the contents of merged bed file
-title_line = '#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tg_start\tg_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n'
+title_line = '#chrom\tg_start\tg_end\tuniprot_id\tannotation_type\tstrand\tthick_start\tthick_end\trgb\tno_of_blocks\tsize_of_blocks\tstart_of_blocks\tannotation_identifier\tdescription\n'
 for filename in [merged_type0_filename, merged_type1_filename]:
     bed_data = BedTool(filename)
     bed_data.sort().saveas(filename)

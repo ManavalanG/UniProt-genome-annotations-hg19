@@ -1,4 +1,6 @@
 '''
+Note: This script isn't used anymore. Use it only if merged data is required only from reviewed UniProtKB IDs.
+
 Script to parse in-house restructured UniProt genome coordinates data to keep only the data with UniProt's reviewed status.
 Simple parsing and comparison is done here, instead of using pandas, numpy, etc. Hence, it takes a bit longer time (~ 1 min) to complete.
 
@@ -10,8 +12,9 @@ import csv
 import os
 from natsort import natsorted
 
-input_bed_file = 'hg38_uniprot_bedfiles/UP000005640_9606_beds/convert2hg19/hg19_format_fixed/merged_select_UniProt_hg19_restructured.bed'
-output_filename = os.path.basename(input_bed_file).replace('.bed', '_reviewed_only.bed')
+input_bed_file = 'Download_data/merged_select_UniProt_hg19_restructured_type1.bed'
+# output_filename = os.path.basename(input_bed_file).replace('.bed', '_reviewed_only.bed')
+output_filename = input_bed_file.replace('.bed', '_reviewed_only.bed')
 
 
 # reads file with uniprot IDs that are from human and has reviewed status
@@ -29,7 +32,8 @@ reviewed_only_list = []
 with open(input_bed_file, 'Ur') as input_bed_handle:
     input_bed_csv = csv.reader(input_bed_handle, delimiter='\t')
     for row in input_bed_csv:
-        uniprot_id = row[3].split(':')[0].lower()
+        # uniprot_id = row[3].split(':')[0].lower()     # splitting not required due to format change in Feb 2017 release
+        uniprot_id = row[3].lower()
         if uniprot_id  in reviewed_ids:
             reviewed_only_list.append('\t'.join(row))
             # reviewed_only_out_handle.write('\t'.join(row) + '\n')
