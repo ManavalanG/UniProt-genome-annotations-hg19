@@ -1,6 +1,0 @@
-hub hub.txt
-genomesFile genomes.txt
-email help@uniprot.org
-shortLabel UniProt Features
-longLabel UniProtKB reviewed protein features mapped to the genome assembly.
-descriptionUrl http://nar.oxfordjournals.org/content/43/D1/D204

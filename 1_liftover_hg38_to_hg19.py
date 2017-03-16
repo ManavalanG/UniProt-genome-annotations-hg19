@@ -124,12 +124,17 @@ def append_to_mergefile(merged_bedfilename, fixed_bed19_outfile, settings_dict, 
                 copyfileobj(edited_bed, combined_handle, 1024 * 1024 * 10)  # 10MB per writing chunk to avoid reading big file into memory.
 
 
+# release version info
+release_ver = 'Mar2017'     # change this variable to include directory name of recent release version
+dir_new_release = 'hg38_uniprot_bedfiles/%s' % release_ver
+# mkdir_if_not_exists(dir_new_release)
+
 # read settings file
 settings_filename = 'settings_files/Settings_UniProt_compare.csv'
 settings_dict, annotations_of_interest = parse_settings(settings_filename)
 
 # get filepaths of UniProt's genome annotation track containing bed files
-input_bedfiles_dir = 'hg38_uniprot_bedfiles/UP000005640_9606_beds'
+input_bedfiles_dir = '%s/UP000005640_9606_beds' % dir_new_release
 input_file_list = glob(input_bedfiles_dir + '/*.bed')
 
 build19_output_dir = os.path.join(input_bedfiles_dir, 'convert2hg19')   # dir to store liftOver output data in hg-build19 format
@@ -138,12 +143,13 @@ fixed_bed19_outdir = os.path.join(build19_output_dir, 'hg19_format_fixed')    # 
 mkdir_if_not_exists(fixed_bed19_outdir)
 
 # creates a bed file that will have merged data of bedfiles with annotation types labelled as type 1 in settings file
-mkdir_if_not_exists('Download_data')
-merged_type1_filename = 'Download_data/merged_select_UniProt_hg19_restructured_type1.bed'
+download_dir = 'Download_data_%s' % release_ver
+mkdir_if_not_exists(download_dir)
+merged_type1_filename = '%s/merged_select_UniProt_hg19_restructured_type1.bed' % download_dir
 merged_bedfile_type1 = create_newfile(directory='.', filename=merged_type1_filename)
 
 # creates a bed file that will have merged data of bedfiles with annotation types labelled as type 0 in settings file
-merged_type0_filename = 'Download_data/merged_select_UniProt_hg19_restructured_type0.bed'
+merged_type0_filename = '%s/merged_select_UniProt_hg19_restructured_type0.bed' % download_dir
 merged_bedfile_type0 = create_newfile(directory='.', filename=merged_type0_filename)
 
 
@@ -229,4 +235,5 @@ for filename in [merged_type0_filename, merged_type1_filename]:
 
 # Zips hg19 converted bed files and puts it into download directory
 dir_name = os.path.join(input_bedfiles_dir, 'convert2hg19/hg19_format_fixed')
-shutil.make_archive('Download_data/hg19_UniProt_genome_annotations_Feb2017', 'zip', dir_name)
+zipped_filename = '%s/hg19_UniProt_genome_annotations_%s' % (download_dir, release_ver)
+shutil.make_archive(zipped_filename, 'zip', dir_name)
