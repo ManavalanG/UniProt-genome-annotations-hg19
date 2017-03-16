@@ -1,0 +1,247 @@
+
+Universal Protein Resource (UniProt)
+====================================
+
+
+The Universal Protein Resource (UniProt), a collaboration between the European
+Bioinformatics Institute (EBI), the SIB Swiss Institute of Bioinformatics, and
+the Protein Information Resource (PIR), is comprised of three databases, each
+optimized for different uses. The UniProt Knowledgebase (UniProtKB) is the
+central access point for extensively curated protein information, including
+function, classification and cross-references. The UniProt Reference Clusters
+(UniRef) combine closely related sequences into a single record to speed up
+sequence similarity searches. The UniProt Archive (UniParc) is a comprehensive
+repository of all protein sequences, consisting only of unique identifiers and
+sequences.
+
+
+Genome annotation tracks
+========================
+
+UniProt genome annotation tracks represent the mapping of a species reference
+proteome and sequence annotations to the species' reference genome.  The genome
+track files provided can be loaded into a genome browser as custom tracks to 
+visualise UniProtKB annotations within the genomic context. 
+
+This directory, uniprot/current_release/knowledgebase/genome_annotation_tracks/
+contains the following directories and files, updated four-weekly:
+
+README (this file)
+relnotes.txt
+<UniProt Proteome ID>_<Taxonomy ID>_beds/
+<UniProt Proteome ID>_<Taxonomy ID>_hub/
+<UniProt Proteome ID>_<Taxonomy ID>_tracks.txt
+
+
+File names:
+-----------
+- The <UniProt Proteome ID> is the unique identifier of the UniProtKB reference
+proteome and the <Taxonomy ID> the corresponding taxonomic identifier.
+- relnotes.txt file contains the corresponding species scientific name
+<UniProt Proteome ID> and <Taxonomy ID>.
+
+
+File format:
+------------
+
+1. relnotes.txt
+A tab delimited file contianing
+- Species:
+  Name of the source organism.
+- UPID:
+  The unique identifier of the UniProtKB reference proteome
+  (<UniProt Proteome ID>).
+- TaxID:
+  Taxonomic identifier (<Taxonomy ID>).
+
+
+2. <UniProt Proteome ID>_<Taxonomy ID>_<UniProtKB Annotation Type>.bed
+A BED detail formatted tab delimited file containing
+- Chromosome name.
+- Annotation start coordinate on the chromosome.
+- Annotation end coordinate on the chromosome.
+- UniProtKB accession, BED line name.
+- Score set to 0 as default.
+- DNA strand +/- for forward or reverse.
+- Thick start coordinate on the chromosome.
+- Thick end coordinate on the chromosome.
+- Annotation color (RGB).
+- Number of blocks representing the annotation.
+- Block sizes, a comma separated list.
+- Block starts, a comma separated list of block offsets relative to the
+annotation start.
+- Annotation identifier (not available in proteome bed detail file).
+- Annotation description (not available in proteome bed detail file).
+- Amino acid change (variant bed detail file only).
+- Annotation evidence (not available in proteome bed detail file).
+Missing values are represented by dots.
+
+
+Note: The BED formatted files currently do not load as custom tracks in the
+UCSC genome browser.  To visualise UniProtKB annotations with the UCSC genome
+browser use either the bigbed (.bb) binary compressed versions of the bed files
+directly or upload the track definitions from the
+<UniProt Proteome ID>_<Taxonomy ID>_tracks.txt file or with the track hub. 
+
+3. <UniProt Proteome ID>_<Taxonomy ID>_<UniProtKB Annotation Type>.bb
+A binary compressed version of the bed detail file.
+
+4. <UniProt Proteome ID>_<Taxonomy ID>_tracks.txt
+Track definitions for each UniProtKB annotation type; defining: genome version,
+URL for the annotation big bed file and initial visualisation settings.
+Currently only supported by UCSC genome browser.
+
+
+Directory format:
+-----------------
+
+<UniProt Proteome ID>_<Taxonomy ID>_beds/
+Contains a bed detail formatted file for each UniProtKB sequence annotation
+type.
+
+<UniProt Proteome ID>_<Taxonomy ID>_hub/
+This directory contains track hub definition files and a <genome> directory.
+
+Hub files:
+----------
+hub.txt - track hub definition file
+genomes.txt - genome and track database definitions
+
+Hub directory:
+--------------
+<genome>/  - The genome directory. For example hg38
+
+Hub <genome> directory files:
+-----------------------------
+<genome>/trackDB.txt
+- UniProtKB annotation files track definitions.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_proteome.bb
+- Bigbed representation of the species proteome sequences.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_site.bb
+- Bigbed representation of active site sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_binding.bb
+- Bigbed representation of binding site sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_ca_bind.bb
+- Bigbed representation of Calcium binding site sequence annotations with in
+the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_carbohyd.bb
+- Bigbed representation of glycosylation sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_chain.bb
+- Bigbed representation of chain sequence annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_coiled.bb
+- Bigbed representation of coiled coil sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_crosslnk.bb
+- Bigbed representation of cross-link between proteins sequence annotations
+with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_disulfide.bb
+- Bigbed representation of disulfide bond sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_dna_bind.bb
+- Bigbed representation of DNA binding domain sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_domain.bb
+- Bigbed representation of modular protein domain sequence annotations with in
+the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_intramem.bb
+- Bigbed representation of intra-membrane sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_lipid.bb
+- Bigbed representation of covalently attached lipid groups sequence
+annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_metal.bb
+- Bigbed representation of metal ion binding site sequence annotations with in
+the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_modres.bb
+- Bigbed representation of modified residues, excluding lipids, glycans and
+protein cross-links, sequence annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_motif.bb
+- Bigbed representation of short sequence motif of biological interest sequence
+annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_np_bind.bb
+- Bigbed representation of Nucleotide Phosphate binding region sequence
+annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_peptide.bb
+- Bigbed representation of active peptide sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_region.bb
+- Bigbed representation of region of interest sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_repeat.bb
+- Bigbed representation of repeated sequence motifs or repeated domains
+sequence annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_signal.bb
+- Bigbed representation of signal sequence annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_site.bb
+- Bigbed representation of interesting single amino acid site sequence
+annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_topodomain.bb
+- Bigbed representation of topological domain sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_transit.bb
+- Bigbed representation of transit peptide for organelle targeting sequence
+annotations with in the species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_transmem.bb
+- Bigbed representation of transmembrane sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_variants.bb
+- Bigbed representation of natural variant sequence annotations with in the
+species.
+
+<genome>/<UniProt Proteome ID>_<Taxonomy ID>_zn_fing.bb
+- Bigbed representation of Zinc finger sequence annotations with in the
+species.              
+
+
+--------------------------------------------------------------------------------
+  LICENSE
+--------------------------------------------------------------------------------
+We have chosen to apply the Creative Commons Attribution-NoDerivs License to all
+copyrightable parts of our databases. This means that you are free to copy,
+distribute, display and make commercial use of these databases in all
+legislations, provided you give us credit. However, if you intend to distribute
+a modified version of one of our databases, you must ask us for permission
+first.
+
+(c) 2002-2017 UniProt Consortium
+
+--------------------------------------------------------------------------------
+  DISCLAIMER
+--------------------------------------------------------------------------------
+We make no warranties regarding the correctness of the data, and disclaim
+liability for damages resulting from its use. We cannot provide unrestricted
+permission regarding the use of the data, as some data may be covered by patents
+or other rights.
+
+Any medical or genetic information is provided for research, educational and
+informational purposes only. It is not in any way intended to be used as a
+substitute for professional medical advice, diagnosis, treatment or care.

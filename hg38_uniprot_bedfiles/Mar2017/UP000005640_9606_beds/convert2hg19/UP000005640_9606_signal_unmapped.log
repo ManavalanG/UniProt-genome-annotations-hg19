@@ -1,0 +1,650 @@
+#Partially deleted in new
+chr1	120029985	120069406	Q04721	0	-	120029985	120069406	204,0,51	1	39421	0	.	signal	peptide_1-25.
+#Split in new
+chr1	120724177	120763629	A0A087WY62	0	+	120724177	120763629	204,0,51	1	39452	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	145728327	145730748	O95971	0	+	145728327	145730748	204,0,51	1	2421	0	.	signal	peptide_1-26.
+#Partially deleted in new
+chr1	145907451	145910014	O75578	0	-	145907451	145910014	204,0,51	1	2563	0	.	signal	peptide_1-22.
+#Partially deleted in new
+chr1	198639268	198692348	A0A075B788	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	A0A0A0MT22	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	E9PKH0	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	M3ZCP1	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	M9MMK8	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	M9MMK9	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	M9MML3	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	M9MML4	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr1	198639268	198692348	X6R433	0	+	198639268	198692348	204,0,51	1	53080	0	.	signal	peptide_1-25.
+#Deleted in new
+chr1	248750638	248751081	Q6UX82	0	-	248750638	248751081	204,0,51	1	443	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	1086551	1086611	A0A0G2JM87	0	+	1086551	1086611	204,0,51	1	60	0	.	signal	peptide_1-20.
+#Partially deleted in new
+chr11	1086551	1086611	A0A0G2JR65	0	+	1086551	1086611	204,0,51	1	60	0	.	signal	peptide_1-20.
+#Partially deleted in new
+chr11	1157999	1160619	P98088	0	+	1157999	1160619	204,0,51	1	2620	0	.	signal	peptide_1-27.
+#Partially deleted in new
+chr11	112961612	113003854	A0A087WTE4	0	+	112961612	113003854	204,0,51	1	42242	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	112961612	113003854	A0A087WTF6	0	+	112961612	113003854	204,0,51	1	42242	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	112961612	113003854	A0A087WV75	0	+	112961612	113003854	204,0,51	1	42242	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	112961612	113003854	A0A087WX77	0	+	112961612	113003854	204,0,51	1	42242	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	112961612	113202383	A0A087WWD4	0	+	112961612	113202383	204,0,51	1	240771	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	112961612	113202383	H7BYX6	0	+	112961612	113202383	204,0,51	1	240771	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	112961612	113202383	P13591	0	+	112961612	113202383	204,0,51	1	240771	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr11	112961612	113214370	A0A087WVD0	0	+	112961612	113214370	204,0,51	1	252758	0	.	signal	peptide_1-18.
+#Partially deleted in new
+chr11	112961612	113255878	A0A087WZS4	0	+	112961612	113255878	204,0,51	1	294266	0	.	signal	peptide_1-18.
+#Partially deleted in new
+chr11	115240410	115504389	A0A0A0MTJ8	0	-	115240410	115504389	204,0,51	1	263979	0	.	signal	peptide_1-43.
+#Partially deleted in new
+chr11	115240412	115504394	Q9BY67	0	-	115240412	115504394	204,0,51	1	263982	0	.	signal	peptide_1-44.
+#Partially deleted in new
+chr11	115240412	115504394	X5D7A8	0	-	115240412	115504394	204,0,51	1	263982	0	.	signal	peptide_1-44.
+#Partially deleted in new
+chr11	115240412	115504394	X5D8W0	0	-	115240412	115504394	204,0,51	1	263982	0	.	signal	peptide_1-44.
+#Partially deleted in new
+chr11	115240412	115504394	X5DQR8	0	-	115240412	115504394	204,0,51	1	263982	0	.	signal	peptide_1-44.
+#Partially deleted in new
+chr11	115240412	115504394	X5DQS5	0	-	115240412	115504394	204,0,51	1	263982	0	.	signal	peptide_1-44.
+#Partially deleted in new
+chr11	115445828	115504394	F5H372	0	-	115445828	115504394	204,0,51	1	58566	0	.	signal	peptide_1-44.
+#Partially deleted in new
+chr14	21941183	21941379	A0A087WT02	0	+	21941183	21941379	204,0,51	1	196	0	.	signal	peptide_1-20.
+#Partially deleted in new
+chr14	22070689	22070940	A0A0B4J277	0	+	22070689	22070940	204,0,51	1	251	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr14	94115788	94115836	A0A087WZF8	0	+	94115788	94115836	204,0,51	1	48	0	.	signal	peptide_1-16.
+#Partially deleted in new
+chr14	106005390	106005532	A0A0C4DH29	0	-	106005390	106005532	204,0,51	1	142	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106012217	106012356	A0A075B6R2	0	-	106012217	106012356	204,0,51	1	139	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106012988	106013127	A0A075B6R2	0	-	106012988	106013127	204,0,51	1	139	0	.	signal	peptide_1-19.
+#Deleted in new
+chr14	106025440	106025581	A0A0J9YVY3	0	-	106025440	106025581	204,0,51	1	141	0	.	signal	peptide_1-19.
+#Deleted in new
+chr14	106026211	106026352	A0A0J9YVY3	0	-	106026211	106026352	204,0,51	1	141	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106088417	106088573	A0A0J9YX35	0	-	106088417	106088573	204,0,51	1	156	0	.	signal	peptide_1-19.
+#Deleted in new
+chr14	106089188	106089344	A0A0J9YX35	0	-	106089188	106089344	204,0,51	1	156	0	.	signal	peptide_1-19.
+#Deleted in new
+chr14	106108267	106108407	A0A0J9YXX1	0	-	106108267	106108407	204,0,51	1	140	0	.	signal	peptide_1-19.
+#Deleted in new
+chr14	106109038	106109178	A0A0J9YXX1	0	-	106109038	106109178	204,0,51	1	140	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106211231	106211391	A0A0C4DH32	0	-	106211231	106211391	204,0,51	1	160	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106212002	106212162	A0A0C4DH32	0	-	106212002	106212162	204,0,51	1	160	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106324549	106324688	A0A0C4DH34	0	-	106324549	106324688	204,0,51	1	139	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106325320	106325459	A0A0C4DH34	0	-	106325320	106325459	204,0,51	1	139	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106336146	106336304	P01768	0	-	106336146	106336304	204,0,51	1	158	0	.	signal	peptide_1-19.	Pubmed:107164,	Pubmed:4208843,	Pubmed:6774332
+#Partially deleted in new
+chr14	106349581	106349720	A0A087WSY4	0	-	106349581	106349720	204,0,51	1	139	0	.	signal	peptide_1-19.
+#Deleted in new
+chr14	106350352	106350491	A0A087WSY4	0	-	106350352	106350491	204,0,51	1	139	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106398634	106398795	P06331	0	-	106398634	106398795	204,0,51	1	161	0	.	signal	peptide_1-26.
+#Partially deleted in new
+chr14	106446688	106446849	P01824	0	-	106446688	106446849	204,0,51	1	161	0	.	signal	peptide_1-26.	Pubmed:6806818
+#Deleted in new
+chr14	106562786	106562946	P01763	0	-	106562786	106562946	204,0,51	1	160	0	.	signal	peptide_1-19.	Pubmed:6410398
+#Partially deleted in new
+chr14	106592968	106593126	P01767	0	-	106592968	106593126	204,0,51	1	158	0	.	signal	peptide_1-19.	Pubmed:416441
+#Partially deleted in new
+chr14	106737405	106737547	A0A0G2JMI3	0	-	106737405	106737547	204,0,51	1	142	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr14	106739658	106739801	P01742	0	-	106739658	106739801	204,0,51	1	143	0	.	signal	peptide_1-19.	Pubmed:7028111,	Pubmed:5489771
+#Partially deleted in new
+chr14	106874876	106875017	A0A0B4J1V7	0	-	106874876	106875017	204,0,51	1	141	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr15	93045697	93072997	G3V545	0	-	93045697	93072997	204,0,51	1	27300	0	.	signal	peptide_1-30.
+#Partially deleted in new
+chr15	93052496	93072997	G3V4C2	0	-	93052496	93072997	204,0,51	1	20501	0	.	signal	peptide_1-31.
+#Partially deleted in new
+chr15	101489481	101489670	P29122	0	-	101489481	101489670	204,0,51	1	189	0	.	signal	peptide_1-63.
+#Partially deleted in new
+chr16	76277662	76277737	A0A087WTA1	0	+	76277662	76277737	204,0,51	1	75	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr16	76277662	76277737	A0A0A0MR20	0	+	76277662	76277737	204,0,51	1	75	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr16	76277662	76277737	F5H107	0	+	76277662	76277737	204,0,51	1	75	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr16	76277662	76277737	Q9C0A0	0	+	76277662	76277737	204,0,51	1	75	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr17	137590	138216	P0DMR2	0	+	137590	138216	204,0,51	1	626	0	.	signal	peptide_1-23.
+#Deleted in new
+chr17	64390498	64390665	A0A075B727	0	-	64390498	64390665	204,0,51	1	167	0	.	signal	peptide_1-27.
+#Deleted in new
+chr17	64390498	64390665	A0A075B737	0	-	64390498	64390665	204,0,51	1	167	0	.	signal	peptide_1-27.
+#Deleted in new
+chr17	64390498	64390665	A0A075B738	0	-	64390498	64390665	204,0,51	1	167	0	.	signal	peptide_1-27.
+#Deleted in new
+chr17	64449168	64449315	A0A087WVL4	0	+	64449168	64449315	204,0,51	1	147	0	.	signal	peptide_1-19.
+#Deleted in new
+chr17	64449168	64449315	Q7Z6M3	0	+	64449168	64449315	204,0,51	1	147	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr19	13937952	13953136	K7EMV0	0	-	13937952	13953136	204,0,51	1	15184	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr19	41625919	41626963	O75871	0	-	41625919	41626963	204,0,51	1	1044	0	.	signal	peptide_1-35.
+#Partially deleted in new
+chr19	41687183	41688165	A0A0A0MTT6	0	-	41687183	41688165	204,0,51	1	982	0	.	signal	peptide_1-34.
+#Partially deleted in new
+chr19	41708731	41756637	M0QYM2	0	+	41708731	41756637	204,0,51	1	47906	0	.	signal	peptide_1-34.
+#Partially deleted in new
+chr19	41877304	41879006	P11912	0	+	41877304	41879006	204,0,51	1	1702	0	.	signal	peptide_1-32.	Pubmed:7514267
+#Partially deleted in new
+chr19	44525206	44529509	A0A087WXE1	0	-	44525206	44529509	204,0,51	1	4303	0	.	signal	peptide_1-30.
+#Partially deleted in new
+chr19	44525206	44529509	A0A087WYH6	0	-	44525206	44529509	204,0,51	1	4303	0	.	signal	peptide_1-30.
+#Partially deleted in new
+chr19	44525206	44529509	A0A087WYM6	0	-	44525206	44529509	204,0,51	1	4303	0	.	signal	peptide_1-30.
+#Partially deleted in new
+chr19	44525206	44529509	A0A087WZX4	0	-	44525206	44529509	204,0,51	1	4303	0	.	signal	peptide_1-30.
+#Partially deleted in new
+chr19	44525206	44529509	A0A087X0T2	0	-	44525206	44529509	204,0,51	1	4303	0	.	signal	peptide_1-30.
+#Partially deleted in new
+chr19	44525206	44529509	A0A087X155	0	-	44525206	44529509	204,0,51	1	4303	0	.	signal	peptide_1-30.
+#Partially deleted in new
+chr19	44613929	44618115	H0Y773	0	+	44613929	44618115	204,0,51	1	4186	0	.	signal	peptide_1-34.
+#Split in new
+chr19	44644096	44647224	A0A0A0MSA9	0	+	44644096	44647224	204,0,51	1	3128	0	.	signal	peptide_1-27.
+#Split in new
+chr19	44644096	44647224	A0A0C4DG49	0	+	44644096	44647224	204,0,51	1	3128	0	.	signal	peptide_1-27.
+#Split in new
+chr19	44644096	44647301	F8W7D4	0	+	44644096	44647301	204,0,51	1	3205	0	.	signal	peptide_1-27.
+#Partially deleted in new
+chr19	54075902	54081355	B6A8C7	0	-	54075902	54081355	204,0,51	1	5453	0	.	signal	peptide_1-16.
+#Partially deleted in new
+chr19	54097147	54100792	A0A0A0MR14	0	-	54097147	54100792	204,0,51	1	3645	0	.	signal	peptide_1-18.
+#Partially deleted in new
+chr19	54223180	54223409	A0A0G2JLT7	0	-	54223180	54223409	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223180	54223409	A0A0G2JN08	0	-	54223180	54223409	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223180	54223409	A0A0G2JN67	0	-	54223180	54223409	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223180	54223409	F8WD89	0	-	54223180	54223409	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223366	54223595	A0A0G2JLU2	0	-	54223366	54223595	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223366	54223595	A0A0G2JMM1	0	-	54223366	54223595	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223366	54223595	A0A0G2JPG2	0	-	54223366	54223595	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223366	54223595	A0A0G2JPI7	0	-	54223366	54223595	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223366	54223595	O75022	0	-	54223366	54223595	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223370	54223599	A0A0G2JM46	0	-	54223370	54223599	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223370	54223599	A0A0G2JMZ3	0	-	54223370	54223599	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223370	54223599	A0A0G2JNW3	0	-	54223370	54223599	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54223370	54223599	A0A0G2JPK5	0	-	54223370	54223599	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54242519	54242751	A0A0G2JLX9	0	-	54242519	54242751	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54242519	54242751	B5ME96	0	-	54242519	54242751	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54242519	54242751	U5XH19	0	-	54242519	54242751	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54242899	54243128	A0A0G2JM95	0	-	54242899	54243128	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54242899	54243128	A0A0G2JMX0	0	-	54242899	54243128	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54242899	54243128	U5XJZ2	0	-	54242899	54243128	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243117	54243346	A0A0G2JLX6	0	-	54243117	54243346	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243117	54243346	A0A0G2JN43	0	-	54243117	54243346	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243118	54243347	A0A0G2JN36	0	-	54243118	54243347	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243118	54243347	A0A0G2JPN1	0	-	54243118	54243347	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243118	54243347	Q6PI73	0	-	54243118	54243347	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243118	54243347	U5XHD7	0	-	54243118	54243347	204,0,51	1	229	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JLX9	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JPA2	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JPR9	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JPW1	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JPW2	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JPY1	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JQ24	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JQ25	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Split in new
+chr19	54243140	54243372	A0A0G2JQ26	0	-	54243140	54243372	204,0,51	1	232	0	.	signal	peptide_1-23.
+#Partially deleted in new
+chr19	54280651	54281098	A0A0G2JNE7	0	-	54280651	54281098	204,0,51	1	447	0	.	signal	peptide_1-20.
+#Partially deleted in new
+chr19	54280651	54281098	A0A0G2JNT8	0	-	54280651	54281098	204,0,51	1	447	0	.	signal	peptide_1-20.
+#Partially deleted in new
+chr19	54280872	54281098	Q8N423	0	-	54280872	54281098	204,0,51	1	226	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54280912	54281123	A0A0G2JNH0	0	-	54280912	54281123	204,0,51	1	211	0	.	signal	peptide_1-16.
+#Partially deleted in new
+chr19	54280912	54281123	A0A0G2JNQ7	0	-	54280912	54281123	204,0,51	1	211	0	.	signal	peptide_1-16.
+#Partially deleted in new
+chr19	54429845	54447408	A0A0G2JLR3	0	+	54429845	54447408	204,0,51	1	17563	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54429845	54447408	A0A0G2JLR4	0	+	54429845	54447408	204,0,51	1	17563	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54429845	54461055	A0A0G2JQ16	0	+	54429845	54461055	204,0,51	1	31210	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr19	54476195	54477717	A0A0C4ZR07	0	+	54476195	54477717	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54476195	54477717	A0A0G2JNS2	0	+	54476195	54477717	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54476195	54491074	K7R1S5	0	+	54476195	54491074	204,0,51	1	14879	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54476195	54491074	P43631	0	+	54476195	54491074	204,0,51	1	14879	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54476195	54491074	Q8N742	0	+	54476195	54491074	204,0,51	1	14879	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54476637	54477433	A0A191URI1	0	+	54476637	54477433	204,0,51	1	796	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54476637	54477433	Q8N109	0	+	54476637	54477433	204,0,51	1	796	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54488037	54489576	A0A0C4ZMZ1	0	+	54488037	54489576	204,0,51	1	1539	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54490219	54491074	A0A0G2JPR7	0	+	54490219	54491074	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54490219	54491074	K7R1S5	0	+	54490219	54491074	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54490219	54491074	P43631	0	+	54490219	54491074	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54506401	54507372	A0A0G2JML6	0	+	54506401	54507372	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54506401	54507372	A0A0G2JPG1	0	+	54506401	54507372	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54506401	54507372	Q8N742	0	+	54506401	54507372	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54521360	54522903	A0A0G2JM36	0	+	54521360	54522903	204,0,51	1	1543	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr19	54521360	54522903	A0A0G2JP93	0	+	54521360	54522903	204,0,51	1	1543	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr19	54545190	54546259	A0A0G2JLU6	0	+	54545190	54546259	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54545190	54546259	A0A0G2JM53	0	+	54545190	54546259	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54545190	54546259	A0A0G2JNS3	0	+	54545190	54546259	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54545190	54546259	A0A0G2JPP7	0	+	54545190	54546259	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54545190	54546259	A0A0G2JPZ4	0	+	54545190	54546259	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54654523	54669498	I3L0I9	0	+	54654523	54669498	204,0,51	1	14975	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54655817	54670813	A0A0G2JME8	0	+	54655817	54670813	204,0,51	1	14996	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54655817	54670813	I3L0I9	0	+	54655817	54670813	204,0,51	1	14996	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54699817	54700844	Q6H2H3	0	+	54699817	54700844	204,0,51	1	1027	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54701144	54702171	A0A0C4ZNX3	0	+	54701144	54702171	204,0,51	1	1027	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54716321	54747559	A0A0G2JQ59	0	+	54716321	54747559	204,0,51	1	31238	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr19	54723980	54725541	A0A0G2JMQ2	0	+	54723980	54725541	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724220	54725742	A0A0C4ZR07	0	+	54724220	54725742	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724495	54726017	A0A0G2JN57	0	+	54724495	54726017	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724495	54739383	Q8N742	0	+	54724495	54739383	204,0,51	1	14888	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724496	54726018	A0A0C4ZQX3	0	+	54724496	54726018	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724496	54726018	A0A0C4ZR07	0	+	54724496	54726018	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724496	54726018	A0A0G2JNR7	0	+	54724496	54726018	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724496	54726018	A0A0G2JPI1	0	+	54724496	54726018	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724496	54726057	A0A0B4J1R5	0	+	54724496	54726057	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724496	54726057	A0A0G2JLZ2	0	+	54724496	54726057	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724496	54726057	Q8N743	0	+	54724496	54726057	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724496	54739472	I3L0I9	0	+	54724496	54739472	204,0,51	1	14976	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724496	54739476	I3L0I9	0	+	54724496	54739476	204,0,51	1	14980	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724496	54739513	I3L0I9	0	+	54724496	54739513	204,0,51	1	15017	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724496	54739535	I3L0I9	0	+	54724496	54739535	204,0,51	1	15039	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724496	54739540	I3L0I9	0	+	54724496	54739540	204,0,51	1	15044	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724497	54726058	A0A0G2JM09	0	+	54724497	54726058	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724499	54726021	A0A0G2JN57	0	+	54724499	54726021	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724499	54739383	A0A0G2JM35	0	+	54724499	54739383	204,0,51	1	14884	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724500	54726022	A0A0G2JNI5	0	+	54724500	54726022	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724500	54739485	I3L0I9	0	+	54724500	54739485	204,0,51	1	14985	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724501	54726062	A0A0G2JPB3	0	+	54724501	54726062	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724501	54739539	I3L0I9	0	+	54724501	54739539	204,0,51	1	15038	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724502	54726024	A0A0C4ZQX3	0	+	54724502	54726024	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724502	54726024	A0A0C4ZR07	0	+	54724502	54726024	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724502	54726024	A0A0G2JNI5	0	+	54724502	54726024	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724502	54739380	A0A0G2JM35	0	+	54724502	54739380	204,0,51	1	14878	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724502	54739382	Q8N742	0	+	54724502	54739382	204,0,51	1	14880	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724502	54739477	I3L0I9	0	+	54724502	54739477	204,0,51	1	14975	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724502	54739478	A0A0G2JPR4	0	+	54724502	54739478	204,0,51	1	14976	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724502	54739478	I3L0I9	0	+	54724502	54739478	204,0,51	1	14976	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724503	54726025	A0A0C4ZNX4	0	+	54724503	54726025	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724503	54726025	A0A0G2JNJ1	0	+	54724503	54726025	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724503	54726064	A0A0G2JM09	0	+	54724503	54726064	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724503	54739392	Q8N742	0	+	54724503	54739392	204,0,51	1	14889	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724503	54739425	A0A0G2JM35	0	+	54724503	54739425	204,0,51	1	14922	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54724510	54726071	A0A0G2JM09	0	+	54724510	54726071	204,0,51	1	1561	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724524	54726046	A0A0C4ZQX3	0	+	54724524	54726046	204,0,51	1	1522	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr19	54724524	54739500	I3L0I9	0	+	54724524	54739500	204,0,51	1	14976	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54732748	54747728	I3L0I9	0	+	54732748	54747728	204,0,51	1	14980	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54733007	54748006	A0A0G2JPR4	0	+	54733007	54748006	204,0,51	1	14999	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54733007	54748006	I3L0I9	0	+	54733007	54748006	204,0,51	1	14999	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738030	54739001	E3NZD8	0	+	54738030	54739001	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738030	54739001	P43628	0	+	54738030	54739001	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738244	54739099	K7R1S5	0	+	54738244	54739099	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738244	54739099	P43631	0	+	54738244	54739099	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738501	54739472	E3NZD8	0	+	54738501	54739472	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738501	54739472	P43628	0	+	54738501	54739472	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738505	54739476	E3NZD8	0	+	54738505	54739476	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738505	54739476	P43628	0	+	54738505	54739476	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738506	54739361	K7R1S5	0	+	54738506	54739361	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738506	54739361	P43631	0	+	54738506	54739361	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738506	54739477	E3NZD8	0	+	54738506	54739477	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738506	54739477	P43628	0	+	54738506	54739477	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738507	54739478	A0A0G2JPC9	0	+	54738507	54739478	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738507	54739478	E3NZD8	0	+	54738507	54739478	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738507	54739478	P43628	0	+	54738507	54739478	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738509	54739499	A0A0C4ZLV8	0	+	54738509	54739499	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738514	54739485	E3NZD8	0	+	54738514	54739485	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738514	54739485	P43628	0	+	54738514	54739485	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738520	54739375	K7R1S5	0	+	54738520	54739375	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738520	54739375	P43631	0	+	54738520	54739375	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738525	54739380	K7R1S5	0	+	54738525	54739380	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738525	54739380	P43631	0	+	54738525	54739380	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738525	54772033	B0L651	0	+	54738525	54772033	204,0,51	1	33508	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738527	54739382	K7R1S5	0	+	54738527	54739382	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738527	54739382	P43631	0	+	54738527	54739382	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738528	54739383	K7R1S5	0	+	54738528	54739383	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738528	54739383	P43631	0	+	54738528	54739383	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738529	54739500	E3NZD8	0	+	54738529	54739500	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738529	54739500	P43628	0	+	54738529	54739500	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738537	54739392	K7R1S5	0	+	54738537	54739392	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738537	54739392	P43631	0	+	54738537	54739392	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738542	54739513	E3NZD8	0	+	54738542	54739513	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738542	54739513	P43628	0	+	54738542	54739513	204,0,51	1	971	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738544	54739534	A0A0G2JNW9	0	+	54738544	54739534	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738544	54739534	A0A0G2JQ49	0	+	54738544	54739534	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738545	54739535	E3NZD8	0	+	54738545	54739535	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738545	54739535	P43628	0	+	54738545	54739535	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738549	54739539	E3NZD8	0	+	54738549	54739539	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738549	54739539	P43628	0	+	54738549	54739539	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738550	54739540	A0A0C4ZLV8	0	+	54738550	54739540	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738560	54739550	A0A0G2JPC4	0	+	54738560	54739550	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738560	54739550	A0A0G2JPP8	0	+	54738560	54739550	204,0,51	1	990	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738569	54739424	K7R1S5	0	+	54738569	54739424	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738569	54739424	P43631	0	+	54738569	54739424	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738569	54772111	B0L653	0	+	54738569	54772111	204,0,51	1	33542	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738570	54739425	A0A0G2JPR7	0	+	54738570	54739425	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738570	54739425	K7R1S5	0	+	54738570	54739425	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738570	54739425	P43631	0	+	54738570	54739425	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738570	54739425	Q14950	0	+	54738570	54739425	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738577	54739432	K7R1S5	0	+	54738577	54739432	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54738577	54739432	P43631	0	+	54738577	54739432	204,0,51	1	855	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54830766	54861972	A0A0G2JP54	0	+	54830766	54861972	204,0,51	1	31206	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr19	54830924	54862156	A0A0G2JPC2	0	+	54830924	54862156	204,0,51	1	31232	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr19	54831023	54862255	A0A0G2JPC2	0	+	54831023	54862255	204,0,51	1	31232	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr19	54838914	54853913	A0A0G2JLR1	0	+	54838914	54853913	204,0,51	1	14999	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54838914	54853913	A0A0G2JNI7	0	+	54838914	54853913	204,0,51	1	14999	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54838914	54853913	A0A0G2JPV9	0	+	54838914	54853913	204,0,51	1	14999	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54838914	54853913	I3L0I9	0	+	54838914	54853913	204,0,51	1	14999	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54838914	54868623	Q30189	0	+	54838914	54868623	204,0,51	1	29709	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54860667	54861736	A0A024R4M5	0	+	54860667	54861736	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54860667	54861736	A0A024R4N4	0	+	54860667	54861736	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54860667	54861736	P24071	0	+	54860667	54861736	204,0,51	1	1069	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54860672	54861725	A0A0G2JMV4	0	+	54860672	54861725	204,0,51	1	1053	0	.	signal	peptide_1-18.
+#Partially deleted in new
+chr19	54860672	54861725	O43469	0	+	54860672	54861725	204,0,51	1	1053	0	.	signal	peptide_1-18.
+#Partially deleted in new
+chr19	54860798	54861825	K7QUS8	0	+	54860798	54861825	204,0,51	1	1027	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54880564	54882088	A0A0G2JMS0	0	+	54880564	54882088	204,0,51	1	1524	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr19	54880564	54882088	A0A0U5GHD6	0	+	54880564	54882088	204,0,51	1	1524	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr19	54888706	54890073	K7RE56	0	+	54888706	54890073	204,0,51	1	1367	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54888978	54890345	K7RE56	0	+	54888978	54890345	204,0,51	1	1367	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr19	54895170	54896713	A0A0G2JM59	0	+	54895170	54896713	204,0,51	1	1543	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr19	54895170	54896713	A0A0G2JPQ5	0	+	54895170	54896713	204,0,51	1	1543	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr19	54905496	54906523	K7QUS8	0	+	54905496	54906523	204,0,51	1	1027	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr2	90159859	90160050	P01611	0	+	90159859	90160050	204,0,51	1	191	0	.	signal	peptide_1-22.	Pubmed:6778806
+#Partially deleted in new
+chr2	90245743	90245933	A0A0G2JRQ6	0	+	90245743	90245933	204,0,51	1	190	0	.	signal	peptide_1-22.
+#Partially deleted in new
+chr2	237859675	237877249	O60894	0	+	237859675	237877249	204,0,51	1	17574	0	.	signal	peptide_1-26.
+#Partially deleted in new
+chr21	20998563	21280579	O15394	0	+	20998563	21280579	204,0,51	1	282016	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr22	22352939	22353121	A0A075B6I7	0	+	22352939	22353121	204,0,51	1	182	0	.	signal	peptide_1-19.
+#Partially deleted in new
+chr22	23974408	23976892	J3KQ18	0	-	23974408	23976892	204,0,51	1	2484	0	.	signal	peptide_1-16.
+#Partially deleted in new
+chr22	23974410	23976896	J3KQ18	0	-	23974410	23976896	204,0,51	1	2486	0	.	signal	peptide_1-16.
+#Partially deleted in new
+chr3	84959607	85726532	G3XHN4	0	+	84959607	85726532	204,0,51	1	766925	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr3	84959607	85802057	Q8N3J6	0	+	84959607	85802057	204,0,51	1	842450	0	.	signal	peptide_1-24.
+#Partially deleted in new
+chr3	134250516	134250654	A0A087WUK1	0	-	134250516	134250654	204,0,51	1	138	0	.	signal	peptide_1-46.
+#Partially deleted in new
+chr3	134250516	134250654	A0A096LNL3	0	-	134250516	134250654	204,0,51	1	138	0	.	signal	peptide_1-46.
+#Partially deleted in new
+chr4	54658014	54695519	A0A024RDA0	0	+	54658014	54695519	204,0,51	1	37505	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr4	54658014	54695519	P10721	0	+	54658014	54695519	204,0,51	1	37505	0	.	signal	peptide_1-25.
+#Partially deleted in new
+chr6	106971825	106974646	B6EC88	0	-	106971825	106974646	204,0,51	1	2821	0	.	signal	peptide_1-26.
+#Partially deleted in new
+chr7	28957971	28958046	Q7L0X0	0	-	28957971	28958046	204,0,51	1	75	0	.	signal	peptide_1-25.
+#Deleted in new
+chr7	142349231	142349383	A0A0J9YXY3	0	+	142349231	142349383	204,0,51	1	152	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142349262	142349414	A0A0J9YXY3	0	+	142349262	142349414	204,0,51	1	152	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142352865	142353074	A0A1B0GXF2	0	+	142352865	142353074	204,0,51	1	209	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr7	142384378	142384557	A0A075B6L6	0	+	142384378	142384557	204,0,51	1	179	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr7	142492176	142492389	A0A1B0GX31	0	+	142492176	142492389	204,0,51	1	213	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142521785	142521971	A0A599	0	+	142521785	142521971	204,0,51	1	186	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142529097	142529248	A0A0J9YYI7	0	+	142529097	142529248	204,0,51	1	151	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142529289	142529478	A0A1B0GX54	0	+	142529289	142529478	204,0,51	1	189	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142533341	142533559	A0A0K0K1E9	0	+	142533341	142533559	204,0,51	1	218	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142535808	142536011	A0A0A6YYD4	0	+	142535808	142536011	204,0,51	1	203	0	.	signal	peptide_1-31.
+#Deleted in new
+chr7	142541803	142541990	A0A0A0MS05	0	+	142541803	142541990	204,0,51	1	187	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142544235	142544404	A0A0K0K1G6	0	+	142544235	142544404	204,0,51	1	169	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142549109	142549261	A0A0J9YX75	0	+	142549109	142549261	204,0,51	1	152	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142553724	142553924	A0A1B0GX51	0	+	142553724	142553924	204,0,51	1	200	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142554880	142555034	A0A5A6	0	+	142554880	142555034	204,0,51	1	154	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142560484	142560647	A0A0A6YYD5	0	+	142560484	142560647	204,0,51	1	163	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142561941	142562128	A0A5A2	0	+	142561941	142562128	204,0,51	1	187	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142563798	142563961	A0A0B4J2E0	0	+	142563798	142563961	204,0,51	1	163	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142571142	142571331	A0A0J9YWB2	0	+	142571142	142571331	204,0,51	1	189	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142577659	142577862	A0A0A6YYD4	0	+	142577659	142577862	204,0,51	1	203	0	.	signal	peptide_1-31.
+#Deleted in new
+chr7	142580980	142581143	A0A1B0GX78	0	+	142580980	142581143	204,0,51	1	163	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142586066	142586235	A0A0K0K1G6	0	+	142586066	142586235	204,0,51	1	169	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142587926	142588075	A0A5B0	0	+	142587926	142588075	204,0,51	1	149	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142593004	142593192	A0A087WZ39	0	+	142593004	142593192	204,0,51	1	188	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142596709	142596863	A0A5A6	0	+	142596709	142596863	204,0,51	1	154	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142598015	142598182	A0A087WV62	0	+	142598015	142598182	204,0,51	1	167	0	.	signal	peptide_1-20.
+#Deleted in new
+chr7	142601627	142602073	A0A087X0K7	0	+	142601627	142602073	204,0,51	1	446	0	.	signal	peptide_1-19.
+#Deleted in new
+chr7	142602296	142602459	A0A0A6YYD5	0	+	142602296	142602459	204,0,51	1	163	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142605607	142605770	A0A1B0GX12	0	+	142605607	142605770	204,0,51	1	163	0	.	signal	peptide_1-21.
+#Deleted in new
+chr7	142615796	142616131	A0A087X0M5	0	+	142615796	142616131	204,0,51	1	335	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr7	142645960	142646183	A0A0A0MS06	0	+	142645960	142646183	204,0,51	1	223	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr7	142697073	142697268	A0A5C1	0	+	142697073	142697268	204,0,51	1	195	0	.	signal	peptide_1-21.
+#Partially deleted in new
+chr7	142720679	142720894	A0A087WZV8	0	+	142720679	142720894	204,0,51	1	215	0	.	signal	peptide_1-26.
+#Partially deleted in new
+chr7	142720679	142720894	A0A5B6	0	+	142720679	142720894	204,0,51	1	215	0	.	signal	peptide_1-26.
+#Deleted in new
+chr7	142770982	142772053	P07478	0	+	142770982	142772053	204,0,51	1	1071	0	.	signal	peptide_1-15.	Pubmed:2598466
+#Deleted in new
+chr7	142790201	142791276	P07477	0	+	142790201	142791276	204,0,51	1	1075	0	.	signal	peptide_1-15.	Pubmed:2598466,	Pubmed:7945238
+#Partially deleted in new
+chr7	142832075	142833146	P07478	0	+	142832075	142833146	204,0,51	1	1071	0	.	signal	peptide_1-15.	Pubmed:2598466
+#Deleted in new
+MT	12336	12399	U5ZC31	0	+	12336	12399	204,0,51	1	63	0	.	signal	peptide_1-21.

@@ -1,0 +1,47 @@
+<metalink xmlns="http://www.metalinker.org/" version="3.0">
+  <publisher>
+    <name>UniProt Consortium</name>
+    <url>http://www.uniprot.org/</url>
+  </publisher>
+  <license>
+    <name>Creative Commons Attribution-NoDerivs 3.0</name>
+    <url>http://creativecommons.org/licenses/by-nd/3.0/</url>
+  </license>
+  <description>UniProt</description>
+  <version>2017_03</version>
+  <files>
+    <file name="README">
+      <size>9532</size>
+      <verification>
+        <hash type="md5">b02c00ef0088e1f6faa3f9248cd74873</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/README</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/README</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/README</url>
+      </resources>
+    </file>
+  <file name="relnotes.txt">
+      <size>427</size>
+      <verification>
+        <hash type="md5">5d3a0bafe21e52b297ff45c01ca5bb3e</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/relnotes.txt</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/relnotes.txt</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/relnotes.txt</url>
+      </resources>
+    </file>
+  <file name="UP000005640_9606_tracks.txt">
+      <size>9146</size>
+      <verification>
+        <hash type="md5">5eb0298e25db360f64728cef87e277e6</hash>
+      </verification>
+      <resources>
+        <url location="ch" preference="100" type="ftp">ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_tracks.txt</url>
+        <url location="uk" preference="100" type="ftp">ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_tracks.txt</url>
+        <url location="us" preference="100" type="ftp">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/UP000005640_9606_tracks.txt</url>
+      </resources>
+    </file>
+  </files>
+</metalink>
