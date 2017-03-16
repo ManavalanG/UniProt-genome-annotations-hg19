@@ -145,11 +145,11 @@ mkdir_if_not_exists(fixed_bed19_outdir)
 # creates a bed file that will have merged data of bedfiles with annotation types labelled as type 1 in settings file
 download_dir = 'Download_data_%s' % release_ver
 mkdir_if_not_exists(download_dir)
-merged_type1_filename = '%s/merged_select_UniProt_hg19_restructured_type1.bed' % download_dir
+merged_type1_filename = '%s/merged_select_UniProt%s_hg19_restructured_type1.bed' % (download_dir, release_ver)
 merged_bedfile_type1 = create_newfile(directory='.', filename=merged_type1_filename)
 
 # creates a bed file that will have merged data of bedfiles with annotation types labelled as type 0 in settings file
-merged_type0_filename = '%s/merged_select_UniProt_hg19_restructured_type0.bed' % download_dir
+merged_type0_filename = '%s/merged_select_UniProt%s_hg19_restructured_type0.bed' % (download_dir, release_ver)
 merged_bedfile_type0 = create_newfile(directory='.', filename=merged_type0_filename)
 
 

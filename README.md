@@ -7,7 +7,7 @@ Besides conversion to hg19 coordinated, few changes are made here to suit our pu
 
 * Two merged files each containing selective [sequence annotations](http://www.uniprot.org/help/sequence_annotation) of interest, as listed below.
 
-    a. [Merged file - Type 1](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type1.bed) has following annotation types merged into a single file.
+    a. [Merged file - Type 1](./Download_data_Mar2017/merged_select_UniProtMar2017_hg19_restructured_type1.bed) has following annotation types merged into a single file.
 
         1	Active site
         2	Binding site for any chemical group
@@ -25,7 +25,7 @@ Besides conversion to hg19 coordinated, few changes are made here to suit our pu
         14	Transit peptide
         15	Zinc finger region
 
-    b. [Merged file - Type 0](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type0.bed) has following annotation types merged into a single file.
+    b. [Merged file - Type 0](./Download_data_Mar2017/merged_select_UniProtMar2017_hg19_restructured_type0.bed) has following annotation types merged into a single file.
 
         1	Active peptide
         2	Chain
@@ -85,9 +85,9 @@ We further merge sequence annotation types of our interest into two Bed files.
 
 Download the resulting merged bed files:
 
-a. [Merged Bed file - Type 1](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type1.bed)
+a. [Merged Bed file - Type 1](./Download_data_Mar2017/merged_select_UniProtMar2017_hg19_restructured_type1.bed)
 
-b. [Merged Bed file - Type 0](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type0.bed)
+b. [Merged Bed file - Type 0](./Download_data_Mar2017/merged_select_UniProtMar2017_hg19_restructured_type0.bed)
 
 
 # Disclaimer
