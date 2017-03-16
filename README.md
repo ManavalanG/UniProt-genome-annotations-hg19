@@ -3,11 +3,11 @@ UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling 
 # Files for download:
 Besides conversion to hg19 coordinated, few changes are made here to suit our purposes, which is to identify if query amino acids have any UniProt annotation. See *'Processing pipeline'* section for details.
 
-* [Restructured, hg19-converted Bed files](./Download_data/hg19_UniProt_genome_annotations_Mar2017.zip). This is what you probably are interested in.
+* [Restructured, hg19-converted Bed files](./Download_data_Mar2017/hg19_UniProt_genome_annotations_Mar2017.zip). This is what you probably are interested in.
 
 * Two merged files each containing selective [sequence annotations](http://www.uniprot.org/help/sequence_annotation) of interest, as listed below.
 
-    a. [Merged file - Type 1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed) has following annotation types merged into a single file.
+    a. [Merged file - Type 1](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type1.bed) has following annotation types merged into a single file.
 
         1	Active site
         2	Binding site for any chemical group
@@ -25,7 +25,7 @@ Besides conversion to hg19 coordinated, few changes are made here to suit our pu
         14	Transit peptide
         15	Zinc finger region
 
-    b. [Merged file - Type 0](./Download_data/merged_select_UniProt_hg19_restructured_type0.bed) has following annotation types merged into a single file.
+    b. [Merged file - Type 0](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type0.bed) has following annotation types merged into a single file.
 
         1	Active peptide
         2	Chain
@@ -72,7 +72,7 @@ It is not provided here due to license concerns.
     >chr1	1569191	1569194	O75900	Metal binding site	+	1569191	1569194	0,153,0	1	3	0	.	Zinc; catalytic.
     ```
 
-[Resulting Bed files](./Download_data/hg19_UniProt_genome_annotations_Mar2017.zip) are what you probably need if you are looking for replacement for UniProt provided hg38 genome coordinates in hg19 format.
+[Resulting Bed files](./Download_data_Mar2017/hg19_UniProt_genome_annotations_Mar2017.zip) are what you probably need if you are looking for replacement for UniProt provided hg38 genome coordinates in hg19 format.
 
 
 #### Further Restructuring:
@@ -85,9 +85,9 @@ We further merge sequence annotation types of our interest into two Bed files.
 
 Download the resulting merged bed files:
 
-a. [Merged Bed file - Type 1](./Download_data/merged_select_UniProt_hg19_restructured_type1.bed)
+a. [Merged Bed file - Type 1](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type1.bed)
 
-b. [Merged Bed file - Type 0](./Download_data/merged_select_UniProt_hg19_restructured_type0.bed)
+b. [Merged Bed file - Type 0](./Download_data_Mar2017/merged_select_UniProt_hg19_restructured_type0.bed)
 
 
 # Disclaimer
