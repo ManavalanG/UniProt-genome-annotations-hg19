@@ -1,4 +1,8 @@
-UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling mapping of amino acid annotations directly to reference genome coordinates, but they are available only in hg38 coordinates.  This repository converts and makes this data available in *hg19 coordinates*.
+UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling mapping of amino acid annotations directly to reference genome coordinates, but they are available only in hg38 coordinates.  See this publication for more info:
+
+[Nucleic Acids Res. 2017 Jan 4;45(D1):D158-D169. doi: 10.1093/nar/gkw1099. UniProt: the universal protein knowledgebase. The UniProt Consortium.](https://www.ncbi.nlm.nih.gov/pubmed/27899622)
+
+This repository converts and makes this data available in *hg19 coordinates*.
 
 # Files for download:
 Besides conversion to hg19 coordinated, few changes are made here to suit our purposes, which is to identify if query amino acids have any UniProt annotation. See *'Processing pipeline'* section for details.
