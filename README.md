@@ -1,3 +1,7 @@
+# Read this first:
+This repository was last updated for March-2017 UniprotKB release. Now, I have moved on to using BigBed files from UniProt, instead of Bed files used here. This recent work is not made public yet. If you are interested, please contact me and I will consider making relevant changes to make this recent work public. Email: mgajapathy@hudsonalpha.org
+
+# UniProt in hg19 coordinates
 UniProt provides [human genome annotation data](http://bit.ly/2mqJMjP) enabling mapping of amino acid annotations directly to reference genome coordinates, but they are available only in hg38 coordinates.  See this publication for more info:
 
 [Nucleic Acids Res. 2017 Jan 4;45(D1):D158-D169. doi: 10.1093/nar/gkw1099. UniProt: the universal protein knowledgebase. The UniProt Consortium.](https://www.ncbi.nlm.nih.gov/pubmed/27899622)
